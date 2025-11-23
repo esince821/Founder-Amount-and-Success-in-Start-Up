@@ -30,19 +30,19 @@ Questions we address include:
 * **Name:** Startup Founders Dataset  
 * **Source:** Wellfound (https://wellfound.com)  
 * **Link:** Collected via custom web scraper; not publicly hosted  
-* **Data Acquisition Method:** Manually collected by browsing startup profiles on Wellfound and recording relevant fields including startup name, number of founders, industry, founded year, and funding stage. The data was exported into a CSV file (`founders.csv`) for analysis.  
+* **Data Acquisition Method:** Gathered from startup pages on Wellfound using web scraping, focusing on how many founders found the start-up. The data was exported into a CSV file (`founders.csv`) for analysis.  
 ---
 ### Dataset 2: Startup Funding Stage 
 * **Name:** Startup Funding Dataset  
 * **Source:** Wellfound (https://wellfound.com)  
 * **Link:** Collected via custom web scraper; not publicly hosted  
-* **Data Acquisition Method:** Manually gathered from startup pages on Wellfound, focusing on funding stages (Seed, Series A, etc.) and total funding (if listed). Saved as `funding.csv`.  
+* **Data Acquisition Method:** Gathered from startup pages on Wellfound using web scraping, focusing on funding stages (Seed, Series A, etc.) and total funding (if listed). Saved as `funding.csv`.  
 ---
 ### Dataset 3: Sector or industry of the Startup
 * **Name:** Startup Industry Dataset  
 * **Source:** Wellfound (https://wellfound.com)  
 * **Link:** Collected via custom web scraper; not publicly hosted  
-* **Data Acquisition Method:** Categorized each startup by its primary industry (e.g., AI, FinTech, HealthTech, EdTech) based on its Wellfound description. Saved as `industry.csv`.  
+* **Data Acquisition Method:** Categorized each startup by its primary industry (e.g., AI, FinTech, HealthTech, EdTech) based on its Wellfound description using web scraping. Saved as `industry.csv`.  
 
 
 ### Key Columns for Each CSV
@@ -70,7 +70,7 @@ Questions we address include:
 ---
 
 ## Methods
-### 1. Data Collection (Updated)
+### 1. Data Collection 
 
 For this project, I will collect data by web scraping publicly available startup profiles from Wellfound.
 Using Python (with libraries such as requests and BeautifulSoup or Scrapy), I will extract basic information about startups, including:
@@ -85,7 +85,7 @@ Using Python (with libraries such as requests and BeautifulSoup or Scrapy), I wi
 - Write a Python scraper to visit each profile and collect the data fields above.
 - Store the results in a CSV file for later analysis.
 
-#### Important Note
+##### Important Note
 
 - I will follow polite scraping practices (slow request rate, no heavy crawling).
 - I will only scrape publicly accessible information.
