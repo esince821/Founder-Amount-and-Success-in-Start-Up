@@ -19,8 +19,8 @@ Although many startups are founded by two people (often hypothesized as one with
 Understanding team structures in early‑stage ventures is valuable for both entrepreneurs and investors.  
 Questions we address include:  
 - What is the typical number of founders in startups?  
-- Do startups with two founders outperform those with one or more than two founders?  
-- Is there an industry‑specific pattern in founder count?
+- Do startups with more founders tend to raise more funding? 
+- Is there an industry‑specific pattern in founder count and funding stage?
 
 ---
 
@@ -29,19 +29,19 @@ Questions we address include:
 ### Dataset 1: Startup Founders Dataset
 * **Name:** Startup Founders Dataset  
 * **Source:** Wellfound (https://wellfound.com)  
-* **Link:** (manually collected data, not publicly downloadable)  
+* **Link:** Collected via custom web scraper; not publicly hosted  
 * **Data Acquisition Method:** Manually collected by browsing startup profiles on Wellfound and recording relevant fields including startup name, number of founders, industry, founded year, and funding stage. The data was exported into a CSV file (`founders.csv`) for analysis.  
 ---
 ### Dataset 2: Startup Funding Stage 
 * **Name:** Startup Funding Dataset  
 * **Source:** Wellfound (https://wellfound.com)  
-* **Link:** (manually collected data, not publicly downloadable)  
+* **Link:** Collected via custom web scraper; not publicly hosted  
 * **Data Acquisition Method:** Manually gathered from startup pages on Wellfound, focusing on funding stages (Seed, Series A, etc.) and total funding (if listed). Saved as `funding.csv`.  
 ---
 ### Dataset 3: Sector or industry of the Startup
 * **Name:** Startup Industry Dataset  
 * **Source:** Wellfound (https://wellfound.com)  
-* **Link:** (manually collected data, not publicly downloadable)  
+* **Link:** Collected via custom web scraper; not publicly hosted  
 * **Data Acquisition Method:** Categorized each startup by its primary industry (e.g., AI, FinTech, HealthTech, EdTech) based on its Wellfound description. Saved as `industry.csv`.  
 
 
@@ -70,36 +70,44 @@ Questions we address include:
 ---
 
 ## Methods
-### 1. Data Collection
+### 1. Data Collection (Updated)
 
-- Extracted data from Wellfound startup pages.
+For this project, I will collect data by web scraping publicly available startup profiles from Wellfound.
+Using Python (with libraries such as requests and BeautifulSoup or Scrapy), I will extract basic information about startups, including:
+- Number of founders
+- Total funding amount 
+- Funding stage
+- Industry
 
-- Manually recorded structured fields (founder count, funding stage, etc.).
+#### Scraping Steps
 
-- Saved as .csv files for analysis.
+- Gather a list of startup profile URLs from Wellfound’s search or listing pages.
+- Write a Python scraper to visit each profile and collect the data fields above.
+- Store the results in a CSV file for later analysis.
 
-### 2. Data Cleaning and Preparation
+#### Important Note
 
-- Combined datasets (founders.csv, funding.csv, industry.csv) on startup_name.
+- I will follow polite scraping practices (slow request rate, no heavy crawling).
+- I will only scrape publicly accessible information.
+- I will check and respect Wellfound’s Terms of Service when collecting data.
 
-- Removed duplicates and startups with missing essential fields (e.g., num_founders).
+### 2. Data Cleaning
 
-- Standardized funding_stage (e.g., unified “Series-A” and “Series A”).
-
-- Converted funding_amount to numeric (removing $, M, K symbols).
-
--Created additional columns:
-
-  startup_age = 2025 - founded_year
-
-  funding_log = log(funding_amount + 1) (to normalize skewed data).
-
-  WHAT DID YOU DO FOR MISSING DATA?
-  HOW DİD YOU GET DATA? WEB SCRAPING
+After scraping:
+- Remove duplicates or incomplete entries
+- Convert funding amounts to numeric form
+- Standardize categories (e.g., industry names, funding stages)
+- Calculate new variables such as, founder group (solo, two founders, more than two)
 
 ### 3. Exploratory Data Analysis (EDA) Pipeline
 
-- A more advanced and reproducible EDA pipeline will include:
+Methods Used
+
+Summary statistics (mean, median, counts)
+
+Visualizations (bar charts, boxplots)
+
+Simple statistical tests (e.g., correlations)
 
 #### 3.1 Descriptive Statistics
 
@@ -190,6 +198,7 @@ Questions we address include:
 | Task | Deadline |
 |------|----------|
 |Project Proposal Submission| October 31, 2025|
+|EDA & Hypothesis Testing| November 28, 2025|
 
 ---
 ## Limitations and Future Work
