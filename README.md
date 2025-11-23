@@ -123,9 +123,9 @@ Simple statistical tests (e.g., correlations)
 | ------------------------------------------------ | --------------------------------------- | ----------------------- |
 | Founder count distribution                       | Bar plot / Histogram                    | `matplotlib`, `seaborn` |
 | Funding stage proportions                        | Pie chart / Count plot                  | `seaborn`               |
-| Relationship between founders and funding amount | Boxplot or Violin plot                  | `seaborn`               |
+| Relationship between founders and funding amount | Boxplot                                 | `seaborn`               |
 | Correlation heatmap                              | Heatmap (funding_amount, founders, age) | `seaborn`               |
-| Industry vs founder count                        | Stacked bar chart                       | `pandas`, `matplotlib`  |
+| Industry vs founder count                        | Bar chart                               | `pandas`, `matplotlib`  |
 | Funding stage vs age                             | Boxplot                                 | `seaborn`               |
 
 #### 3.3 Statistical Testing
