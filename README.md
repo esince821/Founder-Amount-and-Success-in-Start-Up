@@ -90,6 +90,7 @@ Using Python (with libraries such as requests and BeautifulSoup or Scrapy), I wi
 - I will follow polite scraping practices (slow request rate, no heavy crawling).
 - I will only scrape publicly accessible information.
 - I will check and respect Wellfound’s Terms of Service when collecting data.
+- Data was collected from publicly available pages on Wellfound for educational and non-commercial research purposes. Scraping was performed with rate limiting to avoid impacting the website.
 
 ### 2. Data Cleaning
 
