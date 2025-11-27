@@ -29,20 +29,20 @@ Questions we address include:
 ### Dataset 1: Startup Founders Dataset
 * **Name:** Startup Founders Dataset  
 * **Source:** Wellfound (https://wellfound.com)  
-* **Link:** Collected via custom web scraper; not publicly hosted  
-* **Data Acquisition Method:** Gathered from startup pages on Wellfound using web scraping, focusing on how many founders found the start-up. The data was exported into a CSV file (`founders.csv`) for analysis.  
+* **Link:** Collected manually 
+* **Data Acquisition Method:** Gathered from startup pages on Wellfound focusing on how many founders found the start-up. The data was exported into a CSV file (`founders.csv`) for analysis.  
 ---
 ### Dataset 2: Startup Funding Stage 
 * **Name:** Startup Funding Dataset  
 * **Source:** Wellfound (https://wellfound.com)  
-* **Link:** Collected via custom web scraper; not publicly hosted  
-* **Data Acquisition Method:** Gathered from startup pages on Wellfound using web scraping, focusing on funding stages (Seed, Series A, etc.) and total funding (if listed). Saved as `funding.csv`.  
+* **Link:** Collected manually 
+* **Data Acquisition Method:** Gathered from startup pages on Wellfound focusing on funding stages (Seed, Series A, etc.) and total funding (if listed). Saved as `funding.csv`.  
 ---
 ### Dataset 3: Sector or industry of the Startup
 * **Name:** Startup Industry Dataset  
 * **Source:** Wellfound (https://wellfound.com)  
 * **Link:** Collected via custom web scraper; not publicly hosted  
-* **Data Acquisition Method:** Categorized each startup by its primary industry (e.g., AI, FinTech, HealthTech, EdTech) based on its Wellfound description using web scraping. Saved as `industry.csv`.  
+* **Data Acquisition Method:** Categorized each startup by its primary industry (e.g., AI, FinTech, HealthTech, EdTech) based on its Wellfound description. Saved as `industry.csv`.  
 
 
 ### Key Columns for Each CSV
@@ -52,7 +52,6 @@ Questions we address include:
 |-----------------|------------------------------------------|
 | `startup_name`  | Name of the startup                       |
 | `num_founders`  | Number of founding individuals           |
-| `founded_year`  | Year the startup was founded             |
 
 #### 2. `funding.csv`
 | Column Name     | Description                              |
@@ -72,29 +71,16 @@ Questions we address include:
 ## Methods
 ### 1. Data Collection 
 
-For this project, I will collect data by web scraping publicly available startup profiles from Wellfound.
-Using Python (with libraries such as requests and BeautifulSoup or Scrapy), I will extract basic information about startups, including:
+For this project, I will collect data manually publicly available startup profiles from Wellfound.
+I will extract basic information about startups, including:
 - Number of founders
 - Total funding amount 
 - Funding stage
 - Industry
 
-#### Scraping Steps
-
-- Gather a list of startup profile URLs from Wellfound’s search or listing pages.
-- Write a Python scraper to visit each profile and collect the data fields above.
-- Store the results in a CSV file for later analysis.
-
-##### Important Note
-
-- I will follow polite scraping practices (slow request rate, no heavy crawling).
-- I will only scrape publicly accessible information.
-- I will check and respect Wellfound’s Terms of Service when collecting data.
-- Data was collected from publicly available pages on Wellfound for educational and non-commercial research purposes. Scraping was performed with rate limiting to avoid impacting the website.
 
 ### 2. Data Cleaning
 
-After scraping:
 - Remove duplicates or incomplete entries
 - Convert funding amounts to numeric form
 - Standardize categories (e.g., industry names, funding stages)
@@ -110,13 +96,6 @@ Visualizations (bar charts, boxplots)
 
 Simple statistical tests (e.g., correlations)
 
-#### 3.1 Descriptive Statistics
-
-- Summary statistics for numeric variables (num_founders, funding_amount, startup_age).
-
-- Frequency table for categorical variables (funding_stage, industry).
-
-- Cross-tabulation: num_founders × funding_stage.
 
 #### 3.2 Visualization Suite
 
@@ -142,20 +121,6 @@ Simple statistical tests (e.g., correlations)
 - Encode categorical variables (funding_stage, industry) numerically.
 
 - Create founder_group categories: Solo, Two-Founder, Team (>2).
-
-#### 3.5 Reproducibility
-
-- Implement the full EDA in a Jupyter Notebook (eda.ipynb).
-
-- Use modular code blocks:
-
-  data_cleaning.py
-
-  eda_visuals.py
-
-  stat_tests.py
-
-- Export all figures automatically to a /figures directory.
 
 ---
 ## Analysis Plan
@@ -206,12 +171,12 @@ Simple statistical tests (e.g., correlations)
 
 ### Limitations
 - **Manual Data Collection:** The data was manually gathered from Wellfound, which limits sample size and may introduce selection bias (only startups with public profiles are included).  
-- **Missing or Incomplete Fields:** Some startups lacked detailed funding or founder information, reducing data completeness.  
-- **Cross-Sectional Nature:** The dataset represents a single point in time, making it difficult to infer causal relationships between founder count and startup success.  
+- **Missing or Incomplete Fields:** Some startups lacked detailed funding or founder information, reducing data completeness.   
 - **Uncontrolled Factors:** Other variables such as team experience, product type, market conditions, or geographic region were not included but may influence funding outcomes.  
 - **Approximation in Funding Amounts:** Inconsistent currency formats and missing values required normalization and estimation.
+- **Generalized Industry Category:** To simplify I added only one field of company.
 
-write this-> in the industry part I too generalized, i.e. wrote fintech for both fintech elec market etc. ALSO since I collect manually it can e minor mistakes
+
 ---
 
 ### Future Work
