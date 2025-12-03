@@ -50,98 +50,86 @@ As a data science student interested in entrepreneurship, I wanted to examine th
 | `Amount(in dollars)` | Total funding amount (string with currency formatting) | 
 | `Stage` | Funding stage (e.g., Pre-seed, Seed, Series A, Series B, …) | 
 | `Month` | Month of funding |
+
 ---
 
 ## Methods
 ### 1. Data Collection 
 
-For this project, I will collect data manually publicly available startup profiles from Wellfound.
-I will extract basic information about startups, including:
-- Number of founders
-- Total funding amount 
-- Funding stage
-- Industry
+1.  **Data Cleaning**
+   - Removed encoding artifacts from column names (e.g., BOM characters in `"Company/Brand"`).
+   - Stripped whitespace from all column names.
+   - Converted `Amount(in dollars)` from string format (with `$` and commas) to a numeric variable `Amount_clean`.
+   - Dropped rows with missing values in critical fields such as `Amount_clean` and `Stage` for the main analysis dataset.
 
+2.  **Feature Engineering**
+   - **Founder Count (`founder_count`)**:  
+     Parsed the `Founder/s` text field by splitting on commas, “and”, and “&”, then counted the resulting names to obtain the number of founders per startup.
+   - **Log Funding (`log_amount`)**:  
+     Created `log_amount = log10(Amount_clean + 1)` to stabilize variance and make funding distributions more interpretable in boxplots.
+   - **Founded Year (`Founded_year`)**:  
+     Converted the `Founded` column to a numeric year where possible, to study trends over time.
 
-### 2. Data Cleaning
+3.  **Final Analysis Dataset**
+   - The cleaned and feature-engineered data is stored as `startupdataset_final_for_analysis.csv` and used for all EDA and hypothesis exploration.
 
-- Remove duplicates or incomplete entries
-- Convert funding amounts to numeric form
-- Standardize categories (e.g., industry names, funding stages)
-- Calculate new variables such as, founder group (solo, two founders, more than two)
-
-### 3. Exploratory Data Analysis (EDA) Pipeline
-
-Methods Used
-
-Summary statistics (mean, median, counts)
-
-Visualizations (bar charts, boxplots)
-
-Simple statistical tests (e.g., correlations)
-
-
-#### 3.2 Visualization Suite
-
-| Goal                                             | Visualization Type                      | Tool/Library            |
-| ------------------------------------------------ | --------------------------------------- | ----------------------- |
-| Founder count distribution                       | Bar plot / Histogram                    | `matplotlib`, `seaborn` |
-| Funding stage proportions                        | Pie chart / Count plot                  | `seaborn`               |
-| Relationship between founders and funding amount | Boxplot                                 | `seaborn`               |
-| Correlation heatmap                              | Heatmap (funding_amount, founders, age) | `seaborn`               |
-| Industry vs founder count                        | Bar chart                               | `pandas`, `matplotlib`  |
-| Funding stage vs age                             | Boxplot                                 | `seaborn`               |
-
-#### 3.3 Statistical Testing
-
-- ANOVA / Kruskal-Wallis Test: To test if funding amounts differ significantly between groups with different founder counts.
-
-- Chi-Square Test: To test if num_founders and funding_stage are independent.
-
-- Correlation Analysis: Between num_founders and funding_amount.
-
-#### 3.4 Feature Engineering 
-
-- Encode categorical variables (funding_stage, industry) numerically.
-
-- Create founder_group categories: Solo, Two-Founder, Team (>2).
-
----
 ## Analysis Plan
 
-1. **Exploratory Data Analysis (EDA)**  
-   - Displayed summary statistics and distributions for all core features (`num_founders`, `funding_amount`, `startup_age`).  
-   - Used `.describe()` and `.skew()` to assess spread, central tendency, and data symmetry.  
-   - Generated a correlation matrix and visualized it with a heatmap.  
-   - Created the following plots:  
-     - Bar plots for founder count distribution.  
-     - Boxplots showing funding amount across different founder counts.  
-     - Count plots for funding stages.  
-     - Scatter plots between number of founders and total funding.  
-     - Histograms for startup age and funding distributions.  
+### 1. Exploratory Data Analysis (EDA)
 
-   **Key Insights:**  
-   - Most startups are founded by 2 people.  
-   - Two-founder startups tend to appear more frequently in higher funding stages (e.g., Series A/B).  
-   - Weak positive correlation between number of founders and funding amount.  
-   - Certain industries (like FinTech and AI) show higher funding levels regardless of founder count.
+**Univariate EDA**
+- Examined distributions of:
+  - `founder_count` (histograms, value counts),
+  - `Amount_clean` and `log_amount` (histograms),
+  - `Stage` and `Sector` (frequency tables).
+- Calculated summary statistics (`.describe()`) for key numeric variables.
+
+**Bivariate EDA**
+- **Founder Count vs Funding Amount**
+  - Grouped by `founder_count` and computed `count`, `mean`, and `median` funding.
+  - Plotted boxplots of `log_amount` by `founder_count` to compare funding distributions across different team sizes.
+
+- **Stage vs Funding Amount**
+  - Grouped by `Stage` to obtain counts and median log funding amounts.
+  - Plotted boxplots of `log_amount` by `Stage` (restricted to stages with at least 5 observations) to visualize how funding grows across Pre-seed, Seed, Series A–F, etc.
+
+- **Sector vs Funding Amount**
+  - Aggregated funding by `Sector` and plotted boxplots for the top 10 sectors by median funding.
+
+- **Founded Year vs Funding Amount**
+  - Calculated correlations between `Founded_year` and `Amount_clean`.
+  - Created a scatter plot of `Funding Amount vs Founded Year` to check for temporal trends.
+
+### 2. Hypothesis Exploration
+
+The project qualitatively examines the following questions:
+
+- **H₀ (RQ1):** There is no relationship between the number of founders and funding amount.  
+- **H₁ (RQ1):** Startups with more founders tend to receive higher funding.
+
+- **H₀ (RQ2):** Funding stage is not associated with funding amount.  
+- **H₁ (RQ2):** Later stages (Series A–F) are associated with larger funding amounts than early stages (pre-seed, seed).
+
+- **H₀ (RQ3):** There is no relationship between founding year and funding amount.  
+- **H₁ (RQ3):** Newer startups receive higher funding amounts than older ones.
+
+Correlation coefficients, group summaries, and boxplots are used to assess these hypotheses descriptively rather than with full formal statistical tests.
 
 ---
+## Key Insights 
 
-2. **Hypothesis Testing**
+- **Funding Stage vs Funding Amount:**  
+  Median log funding increases monotonically from early stages (pre-seed, seed) to later rounds (Series C–F). Because the y-axis is on a log₁₀ scale, differences of 1 unit correspond to roughly tenfold differences in funding, indicating that later-stage rounds are substantially larger.
 
-   **Hypotheses:**  
-   - **H₀ (Null):** There is no statistically significant relationship between the number of founders and the funding stage of a startup.  
-   - **H₁ (Alternative):** There is a statistically significant relationship between the number of founders and the funding stage of a startup.
+- **Founder Count vs Funding Amount:**  
+  Startups with 1–4 founders show a gradual increase in median log funding as the founder count increases, although variability within each group is large and there are outliers where small founding teams raise very large amounts.
 
-   **Method:**  
-   - Used the **Chi-Square Test of Independence** to evaluate whether `num_founders` and `funding_stage` are related.  
-   - Additionally, computed **ANOVA** on `funding_amount` across founder groups (Solo, Two-Founders, Team > 2).  
+- **Founded Year vs Funding Amount:**  
+  The correlation between founding year and funding amount is close to zero, and the scatter plot does not reveal a clear trend. In this dataset, older and younger startups do not systematically differ in the amount of funding they have raised, aside from a few extreme outliers.
 
-   **Results:**  
-   - *Chi-Square p-value ≈ 0.018* → Reject the null hypothesis at α = 0.05.  
-   - *ANOVA F-statistic significant (p < 0.05)* → Founders count influences funding amount.  
-   - Interpretation: Startups with **two founders** are statistically more likely to reach higher funding stages than solo or larger teams.
+- **Sector Effects:**  
+  Some sectors (e.g., finance, biotechnology, crypto) exhibit very wide funding ranges, with both small and extremely large deals, whereas others show more homogeneous deal sizes.
+  
 ---
 
 ## Timeline
@@ -159,8 +147,7 @@ Simple statistical tests (e.g., correlations)
 - **Uncontrolled Factors:** Other variables such as team experience, product type, market conditions, or geographic region were not included but may influence funding outcomes.  
 - **Approximation in Funding Amounts:** Inconsistent currency formats and missing values required normalization and estimation.
 - **Generalized Industry Category:** To simplify I added only one field of company.
-
-
+  
 ---
 
 ### Future Work
