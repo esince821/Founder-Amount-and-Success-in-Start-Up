@@ -16,56 +16,40 @@ Although many startups are founded by two people (often hypothesized as one with
 ---
 
 ## Motivation
-Understanding team structures in early‑stage ventures is valuable for both entrepreneurs and investors.  
-Questions we address include:  
-- What is the typical number of founders in startups?  
-- Do startups with more founders tend to raise more funding? 
-- Is there an industry‑specific pattern in founder count and funding stage?
+The composition of a founding team and the stage of funding are central topics in startup and venture capital research. Some theories suggest that:
+
+- Larger founding teams can combine more skills and networks, potentially attracting more capital.
+- Later funding stages, by definition, are linked to higher valuations and larger deal sizes.
+- Younger vs. older startups may face different funding environments.
+
+As a data science student interested in entrepreneurship, I wanted to examine these ideas using real startup data. Understanding these relationships can help founders and investors develop more realistic expectations about funding, and can serve as a small, data-driven case study of how team structure and growth stage interact with investment outcomes.
 
 ---
 
 ## Datasets
 
-### Dataset 1: Startup Founders Dataset
-* **Name:** Startup Founders Dataset  
-* **Source:** Wellfound (https://wellfound.com)  
-* **Link:** Collected manually 
-* **Data Acquisition Method:** Gathered from startup pages on Wellfound focusing on how many founders found the start-up. The data was exported into a CSV file (`founders.csv`) for analysis.  
----
-### Dataset 2: Startup Funding Stage 
-* **Name:** Startup Funding Dataset  
-* **Source:** Wellfound (https://wellfound.com)  
-* **Link:** Collected manually 
-* **Data Acquisition Method:** Gathered from startup pages on Wellfound focusing on funding stages (Seed, Series A, etc.) and total funding (if listed). Saved as `funding.csv`.  
----
-### Dataset 3: Sector or industry of the Startup
-* **Name:** Startup Industry Dataset  
-* **Source:** Wellfound (https://wellfound.com)  
-* **Link:** Collected via custom web scraper; not publicly hosted  
-* **Data Acquisition Method:** Categorized each startup by its primary industry (e.g., AI, FinTech, HealthTech, EdTech) based on its Wellfound description. Saved as `industry.csv`.  
+### Dataset 1: Startup Founders and Funding (Raw)
+* **Name:** Startup Founders and Funding  
+* **Source:** Kaggle.com
+* **Link:** https://www.kaggle.com/datasets/ramjasmaurya/indian-startupsin-2021?resource=download
+* **Data Acquisition Method:** Downloaded the dataset as a CSV file using Kaggle’s download feature and imported it into a Jupyter notebook (Anaconda environment). 
 
 
-### Key Columns for Each CSV
+### Key Columns for CSV
 
 #### 1. `founders.csv`
 | Column Name     | Description                              |
 |-----------------|------------------------------------------|
-| `startup_name`  | Name of the startup                       |
-| `num_founders`  | Number of founding individuals           |
-
-#### 2. `funding.csv`
-| Column Name     | Description                              |
-|-----------------|------------------------------------------|
-| `startup_name`  | Name of the startup                       |
-| `funding_stage` | Current funding stage (Seed, Series A, etc.) |
-| `funding_amount`| Total funding raised (numeric, if available) |
-
-#### 3. `industry.csv`
-| Column Name     | Description                              |
-|-----------------|------------------------------------------|
-| `startup_name`  | Name of the startup                       |
-| `industry`      | Sector or industry of the startup (e.g., AI, FinTech, HealthTech, EdTech) |
-
+| `Company/Brand` | Name of the startup |  
+| `Founded` | Founding year | 
+| `Headquarters` | Location of the company |  
+| `Sector` | Industry/sector label | 
+| `What it does` | Short textual description | 
+| `Founder/s` | Names of founders in a single text field | 
+| `Investor/s` | Names of major investors | 
+| `Amount(in dollars)` | Total funding amount (string with currency formatting) | 
+| `Stage` | Funding stage (e.g., Pre-seed, Seed, Series A, Series B, …) | 
+| `Month` | Month of funding |
 ---
 
 ## Methods
