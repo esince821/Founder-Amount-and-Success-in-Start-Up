@@ -64,14 +64,14 @@ As I have an interest on entrepreneurship, I wanted to examine these ideas using
 
 2.  **Feature Engineering**
    - **Founder Count (`founder_count`)**:  
-     Parsed the `Founder/s` text field by splitting on commas, “and”, and “&”, then counted the resulting names to obtain the number of founders per startup.
+     Parsed the `Founder/s` text field by splitting on commas, then counted the resulting names to obtain the number of founders per startup.
    - **Log Funding (`log_amount`)**:  
      Created `log_amount = log10(Amount_clean + 1)` to stabilize variance and make funding distributions more interpretable in boxplots.
    - **Founded Year (`Founded_year`)**:  
      Converted the `Founded` column to a numeric year where possible, to study trends over time.
 
 3.  **Final Analysis Dataset**
-   - The cleaned and feature-engineered data is stored as `startupdataset_final_for_analysis.csv` and used for all EDA and hypothesis exploration.
+   - The cleaned and feature-engineered data is stored as `startupdataset_clean_for_analysis.csv` and used for all EDA and hypothesis exploration.
 
 ## Analysis Plan
 
