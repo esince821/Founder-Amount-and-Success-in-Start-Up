@@ -1,0 +1,696 @@
+Company/Brand,Founded,Sector,Founder/s,Amount(in dollars),Stage,Month,founder_count,Amount_clean,log_amount,Founded_year
+CollegeDekho,2015.0,E-learning,Ruchir Arora,35000000,Series B,12,1,35000000.0,7.5440680567586895,2015.0
+Simpl,2015.0,Consumer Services,"Nitya, Chaitra Chidanand",40000000,Series B,12,2,40000000.0,7.602060002185325,2015.0
+PayGlocal,2021.0,Financial Services,"Prachi Dharani, Rohit Sukhija, Yogesh Lokhande",4900000,Series A,12,3,4900000.0,6.690196168660032,2021.0
+Pocket FM,2018.0,OTT,"Rohan, Nishanth Srinivas, Prateek Dixit",22000000,Series B,12,3,22000000.0,7.342422700562864,2018.0
+PlanetSpark,2017.0,Education Management,"Maneesh Dhooper, Kunal Malik",13000000,Series B,12,2,13000000.0,7.113943385714103,2017.0
+LenDenClub,2015.0,Financial Services,"Bhavin Patel, Dipesh Karki",10000000,Series A,12,2,10000000.0,7.000000043429446,2015.0
+CometChat,2009.0,Computer Software,"Anuj, Anant Garg",10000000,Series A,12,2,10000000.0,7.000000043429446,2009.0
+AgroStar,2013.0,AgriTech,"Shardul, Sitanshu Sheth",70000000,Series D,12,2,70000000.0,7.845098046218464,2013.0
+Bizongo,2015.0,Information Technology & Services,"Sachin Agrawal, Aniket Deb, Ankit Tomar",100000000,Series D,12,3,100000000.0,8.000000004342946,2015.0
+MoEngage,2014.0,Software Startup,"Raviteja Dodda, Yashwanth Kumar",30000000,Series D,12,2,30000000.0,7.477121269196145,2014.0
+CloudSEK,2015.0,Computer & Network Security,Rahul Sasi,7000000,Series A,12,1,7000000.0,6.845098102056321,2015.0
+Exponent Energy,2020.0,Automotive,"Arun Vinayak, Sanjay Byalal",5000000,Pre-series A,12,2,5000000.0,6.698970091194907,2020.0
+Trinkerr,2021.0,Capital Markets,"Manvendra Singh, Gaurav Agarwal",6600000,Series A,12,2,6600000.0,6.819544001344058,2021.0
+Zorro,2021.0,Social network,"Jasveer Singh, Abhishek Asthana, Deepak Kumar",32000000,Seed,12,3,32000000.0,7.505149991891608,2021.0
+Ultraviolette,2021.0,Automotive,"Subramaniam Narayan, Niraj Rajmohan",150000000,Series C,12,2,150000000.0,8.176091261950978,2021.0
+NephroPlus,2009.0,Hospital & Health Care,Vikram Vuppala,24000000,Series E,12,1,24000000.0,7.380211259807209,2009.0
+Unremot,2020.0,Information Technology & Services,Shiju Radhakrishnan,700000,Seed,12,1,700000.0,5.845098660434502,2020.0
+Spry,2021.0,Music,"Gaurav Dagaonkar, Meghna Mittal",1500000,Seed,12,2,1500000.0,6.176091548585239,2021.0
+Enmovil,2015.0,Information Technology & Services,"Ravi Bulusu, Nanda Kishore, Venkat Moganty",1300000,Pre-series A,12,3,1300000.0,6.113943686379387,2015.0
+ASQI Advisors,2019.0,Financial Services,Swapnil Pawar,1000000,Pre-series A,12,1,1000000.0,6.0000004342942646,2019.0
+Insurance Samadhan,2018.0,Insurance,Deepak Bhuvenshwari Uniyal,725000,Pre-series A,12,1,725000.0,5.860338605597452,2018.0
+MasterChow,2020.0,Hauz Khas,"Vidur Kataria, Sidhanth Madan",461000,Seed,12,2,461000.0,5.663701867459086,2020.0
+Trinkerr,2021.0,Capital Markets,"Manvendra Singh, Gaurav Agarwal",6600000,Series A,12,2,6600000.0,6.819544001344058,2021.0
+Zorro,2021.0,Social network,"Jasveer Singh, Abhishek Asthana, Deepak Kumar",32000000,Seed,12,3,32000000.0,7.505149991891608,2021.0
+Ultraviolette,2021.0,Automotive,"Subramaniam Narayan, Niraj Rajmohan",150000000,Series C,12,2,150000000.0,8.176091261950978,2021.0
+NephroPlus,2009.0,Hospital & Health Care,Vikram Vuppala,24000000,Series E,12,1,24000000.0,7.380211259807209,2009.0
+Unremot,2020.0,Information Technology & Services,Shiju Radhakrishnan,700000,Seed,12,1,700000.0,5.845098660434502,2020.0
+Spry,2021.0,Music,"Gaurav Dagaonkar, Meghna Mittal",1500000,Seed,12,2,1500000.0,6.176091548585239,2021.0
+Enmovil,2015.0,Information Technology & Services,"Ravi Bulusu, Nanda Kishore, Venkat Moganty",1300000,Pre-series A,12,3,1300000.0,6.113943686379387,2015.0
+ASQI Advisors,2019.0,Financial Services,Swapnil Pawar,1000000,Pre-series A,12,1,1000000.0,6.0000004342942646,2019.0
+Insurance Samadhan,2018.0,Insurance,Deepak Bhuvenshwari Uniyal,725000,Pre-series A,12,1,725000.0,5.860338605597452,2018.0
+MasterChow,2020.0,Hauz Khas,"Vidur Kataria, Sidhanth Madan",461000,Seed,12,2,461000.0,5.663701867459086,2020.0
+Pristyn Care,2018.0,Hospital & Health Care,"Harsimarbir (Harsh) Singh, Dr Vaibhav Kapoor, Dr Garima Sawhney",96000000,Series E,12,3,96000000.0,7.982271237563469,2018.0
+Plix,2018.0,"Health, Wellness & Fitness","Rishubh Satiya, Akash Zaveri",5000000,Series A,12,2,5000000.0,6.698970091194907,2018.0
+Uni Cards,2020.0,Financial Services,"Nitin Gupta, Prateek Jindal, Laxmikant Vyas",70000000,Series A,12,3,70000000.0,7.845098046218464,2020.0
+Nestasia,2018.0,Retail,"Aditi Murarka Agrawal, Anurag Agrawal",4000000,Series A,12,2,4000000.0,6.6020600999015695,2018.0
+Vedic Cosmeceuticals,2002.0,Cosmetics,Mohit Goel,32000000,Series A,12,1,32000000.0,7.505149991891608,2002.0
+Juspay,2012.0,FinTech,"Vimal Kumar, Ramanathan RV",60000000,Series C,12,2,60000000.0,7.778151257621885,2012.0
+TranZact,2017.0,Information Technology & Services,"Ritesh Kumar, Sharad Sen Sharma, Rohan Sen Sharma",7000000,Series A,12,3,7000000.0,6.845098102056321,2017.0
+Mohalla Tech,2015.0,Social media,"Ankush Sachdeva, Bhanu Pratap Singh",266000000,Series G,12,2,266000000.0,8.424881638263752,2015.0
+Stack,2020.0,Financial Services,"Smriti Tomar, Tushar Vyas",4500000,Seed,12,2,4500000.0,6.653212610285218,2020.0
+WeSkill,2020.0,E-learning,"Shaurya Joshi, Shashank Patidar, Praneet Agarwal",4000000,Pre-seed,12,3,4000000.0,6.6020600999015695,2020.0
+ByteLearn,2021.0,E-learning,,9500000,Seed,12,0,9500000.0,6.977723651004054,2021.0
+Dista,2017.0,Computer Software,"Nishant Kumar, Shishir Gokhale, Deepak Garg",1200000,Seed,12,3,1200000.0,6.079181607959542,2017.0
+Bizongo,2015.0,B2B Ecommerce,"Sachin Agrawal, Aniket Deb, Ankit Tomar",100000000,Series D,12,3,100000000.0,8.000000004342946,2015.0
+FRND,2019.0,Online Media,"Bhanu Pratap Singh Tanwar, Hardik Bansal, Harshvardhan Chhangani",6500000,Series A,12,3,6500000.0,6.8129134234573865,2019.0
+Metadome,2017.0,Computer Software,"Kanav Singla, Prashant Sinha, Shorya Mahajan",4000000,Pre-series A,12,3,4000000.0,6.6020600999015695,2017.0
+Yodacart,2019.0,E-commerce,Vikas Sharma,225000,Pre-seed,12,1,225000.0,5.3521844483047705,2019.0
+Jumbotail,2015.0,B2B Ecommerce,"S Karthik Venkateswaran, Ashish Jhina",85000000,Series C,12,2,85000000.0,7.92941893082364,2015.0
+Captain Fresh,2019.0,Logistics & Supply Chain,Utham Gowda,40000000,Series B,12,1,40000000.0,7.602060002185325,2019.0
+Kohbee,2019.0,E-learning,"Rohan Sinha, Shashwat Aditya",235000,Pre-seed,12,2,235000.0,5.371069710329429,2019.0
+Perfora,2021.0,Consumer Goods,"Tushar Khurana, Jatan Bawa",260000,Pre-seed,12,2,260000.0,5.414975018330997,2021.0
+Unbox Robotics,2019.0,Logistics & Supply Chain,"Pramod Ghadge, Shahid Memon, Rohit Pitale",7000000,Series A,12,3,7000000.0,6.845098102056321,2019.0
+Ninety One,2015.0,Consumer Goods,"Sachin Chopra, Vishal Chopra",30000000,Series A,12,2,30000000.0,7.477121269196145,2015.0
+Gobillion,2020.0,Social commerce,"Roshan Farhan, Kulapradip Bharali",2900000,Seed,12,2,2900000.0,6.462398147655648,2020.0
+RIPPLR,2019.0,Logistics & Supply Chain,"Abhishek Nehru, Santosh Dabke",12000000,Pre-series B,12,2,12000000.0,7.07918128223883,2019.0
+SK Finance,1994.0,Financial Services,Rajendra Setia,53000000,Series F,12,1,53000000.0,7.724275877795025,1994.0
+Eggoz,2017.0,Food & Beverages,"Abhishek Negi, Uttam Kumar, Aditya Singh, Pankaj Pandey",3500000,Series A,12,4,3500000.0,6.5440681684343955,2017.0
+Fabriclore,2016.0,Apparel & Fashion,"Vijay Sharma, Anupam Arya, Sandeep Sharma",700000,Pre-series A,12,3,700000.0,5.845098660434502,2016.0
+Verandah,2011.0,Apparel & Fashion,Anjali Patel Mehta,1000000,Seed,12,1,1000000.0,6.0000004342942646,2011.0
+Fi,2019.0,Financial Services,Sumit Gwalani,50000000,Series B,11,1,50000000.0,7.698970013021908,2019.0
+Kiko Live,2020.0,Commerce,"Alok Chawla, Shivam",1000000,Pre-series A,11,2,1000000.0,6.0000004342942646,2020.0
+The Hosteller,2015.0,Hospitality,Pranav Dangi,1000000,Pre-series A,11,1,1000000.0,6.0000004342942646,2015.0
+Ruptok Fintech,2020.0,Financial Services,Ankur Gupta,2000000,Pre-series A,11,1,2000000.0,6.301030212811168,2020.0
+Dogsee Chew,2015.0,Food & Beverages,"Bhupendra Khanal, Sneh Sharma",7000000,Pre-series A,11,2,7000000.0,6.845098102056321,2015.0
+Advantage Club,2014.0,HR Tech,Sourabh Deorah,3300000,Pre-series A,11,1,3300000.0,6.518514071482256,2014.0
+Cora Health,2020.0,"Health, Wellness & Fitness","Snigdha Kumar, Shrijit Venkatesh",600000,Seed,11,2,600000.0,5.7781519742071765,2020.0
+Battery Smart,2019.0,Renewables & Environment,"Pulkit Khurana, Siddharth Sikka",7000000,Pre-series A,11,2,7000000.0,6.845098102056321,2019.0
+The Good Glamm Group,2021.0,Information Technology & Services,"Darpan Sanghvi, Priyanka Gill, Naiyya saggi",150000000,Series D,11,3,150000000.0,8.176091261950978,2021.0
+Mosaic Wellness,2019.0,"Health, Wellness & Fitness",Dhyanesh Shah,24000000,Series A,11,1,24000000.0,7.380211259807209,2019.0
+CloudFiles,2020.0,SaaS startup,"Vishesh Singhal, Ankit Gupta, Siddharth Garg",300000,Pre-seed,11,3,300000.0,5.477122702365523,2020.0
+Xpand,2021.0,Retail,Sanjay Kaul,1500000,Pre-series A,11,1,1500000.0,6.176091548585239,2021.0
+Troo Good,2018.0,E-commerce,Raju Bhupati,7000000,Series A,11,1,7000000.0,6.845098102056321,2018.0
+Prodo,2021.0,Business Supplies & Equipment,"Sameen Husain, Abhiroop Srivastava",300000,Pre-seed,11,2,300000.0,5.477122702365523,2021.0
+Unnati,2019.0,FinTech,"Amit Sinha, Ashok Prasad",7000000,Series A,11,2,7000000.0,6.845098102056321,2019.0
+Lysto,2021.0,NFT,Sadiq Ahamed,3000000,Seed,11,1,3000000.0,6.477121399484465,2021.0
+Wakefit,2014.0,Furniture,"Ankit Garg, Chaitanya Ramalingegowda",20000000,Series C,11,2,20000000.0,7.301030017378705,2014.0
+Buyofuel,2020.0,Oil & Energy,"Kishan Karunakaran, Venkateswaran Selvan, Sumanth Kumar",100000,Seed,11,3,100000.0,5.000004342923105,2020.0
+ElectricPe,2021.0,EV,"Avinash Sharma, Raghav Rohila",3000000,Seed,11,2,3000000.0,6.477121399484465,2021.0
+Vayana Network,2017.0,Financial Services,Ramaswamy Iyer,30000000,Series C,11,1,30000000.0,7.477121269196145,2017.0
+Valuationary,2020.0,E-learning,"Pratik Bajaj, Kunal Shah, Mahip Gupta",100000,Pre-seed,11,3,100000.0,5.000004342923105,2020.0
+EyeMyEye,2021.0,Eyewear,Ganesh Iyer,2000000,Pre-series A,11,1,2000000.0,6.301030212811168,2021.0
+DGV,2019.0,Information Technology & Services,Ragavan Venkatesan,3000000,Pre-series A,11,1,3000000.0,6.477121399484465,2019.0
+GuardianLink,2017.0,Information Technology & Services,"Ramkumar Subramaniam, Kamesh Elangovan",12000000,Series A,11,2,12000000.0,7.07918128223883,2017.0
+Clinikk,2016.0,Hospital & Health Care,"Dr.Suraj Baliga, Bhavjot Kaur",4000000,Pre-series A,11,2,4000000.0,6.6020600999015695,2016.0
+Mensa,2021.0,D2C,Ananth Narayanan,135000000,Series B,11,1,135000000.0,8.130333771712003,2021.0
+GENLEAP,2021.0,Professional Training & Coaching,"Sachin Sandhir, Nimish Gupta, Nitin Thakur, Shweta Kataria",8000000,Seed,11,4,8000000.0,6.903090041278751,2021.0
+Planys,2015.0,Maritime,"Tanuj Jhunjhunwala, Vineet Upadhyay, Rakesh Sirikonda",1600000,Pre-series A,11,3,1600000.0,6.204120254089891,2015.0
+GoKwik,2020.0,Information Technology & Services,"Chirag, Vivek Bajpai, Ankush Talwar",15000000,Series A,11,3,15000000.0,7.176091288008646,2020.0
+Velocity,2020.0,Financial Services,"Saurav Swaroop, Abhiroop Medhekar, Atul Khichariya",20000000,Series A,11,3,20000000.0,7.301030017378705,2020.0
+SalaryBox,2020.0,Financial Services,"Nikhil Goel, Peeyush Goyal",4000000,Seed,11,2,4000000.0,6.6020600999015695,2020.0
+Boingg,2019.0,Furniture,"Neha Indoria, Dhruvan Barar",200000,Seed,11,2,200000.0,5.301032167130962,2019.0
+Disprz,2015.0,E-learning,"Subramanian Viswanathan, Kuljit Chadha",13000000,Series B,11,2,13000000.0,7.113943385714103,2015.0
+Inzpira,2021.0,E-learning,"Rohith Namboothiri, Sruthy Ramesh",300000,Seed,11,2,300000.0,5.477122702365523,2021.0
+Mindhouse,2019.0,"Health, Wellness & Fitness","Pooja Khanna, Pankaj Chaddah",6000000,Seed,11,2,6000000.0,6.7781513227660515,2019.0
+Toppersnotes,2015.0,Education Management,"Ayush Agarwal, Devendra Dhaka, Arpit Bansal",1000000,Seed,11,3,1000000.0,6.0000004342942646,2015.0
+NoBroker.com,2014.0,Real Estate,"Akhil Gupta, Amit, Saurabh",2100000,Series E,11,3,2100000.0,6.322219501540766,2014.0
+Haber,2017.0,Industrial Automation,"Vipin Raghavan, Priya Venkat, Arjunan PN",20000000,Series B,11,3,20000000.0,7.301030017378705,2017.0
+Koparo,2020.0,Consumer Goods,Simran Khara,700000,Seed,11,1,700000.0,5.845098660434502,2020.0
+Settl,2020.0,Real Estate,"Abhishek Tripathi, Bharath Bhaskar, Ashok Reddy",500000,Seed,11,3,500000.0,5.698970872924114,2020.0
+Park+,2019.0,Tech startup,Amit Lakhotia,25000000,Series B,11,1,25000000.0,7.397940026043816,2019.0
+Simple Energy,2019.0,Automotive,Suhas Rajkumar,21000000,Pre-series,11,1,21000000.0,7.322219315414609,2019.0
+Spinny,2015.0,Automotive,"Niraj Singh, Mohit Gupta, Ramanshu Mahaur",248000000,Series E,11,3,248000000.0,8.394451682577404,2015.0
+Slice,2015.0,Financial Services,"Rajan Bajaj, Siva Kumar Tangudu",220000000,Series B,11,2,220000000.0,8.342422682796272,2015.0
+21K School,2020.0,E-learning,"Santosh Kumar, Yeshwanth Raj Parasmal, Dinesh Kumar, Joshi Kumar",5000000,Pre-series A,11,4,5000000.0,6.698970091194907,2020.0
+Adda247,2016.0,E-learning,"Anil Nagar, Saurabh Bansal",20000000,Series B,11,2,20000000.0,7.301030017378705,2016.0
+Rupifi,2020.0,Financial Services,"Jawaid Iqbal, Dhruv Bhushan",1000000,Debt,10,2,1000000.0,6.0000004342942646,2020.0
+RENEE Cosmetics,2019.0,Cosmetics,"Priyank Shah, Ashutosh Valani, Aashka Goradia Goble",1500000,Pre-series A,10,3,1500000.0,6.176091548585239,2019.0
+Svish,2020.0,Consumer Goods,"Ishan, Jaideep Mahajan",400000,Seed,10,2,400000.0,5.60206107706281,2020.0
+Progcap,2016.0,FinTech,"Pallavi Shrivastava, Himanshu Chandra",30000000,Series C,10,2,30000000.0,7.477121269196145,2016.0
+DâMoksha Homes,2020.0,Textiles,"Nimisha, Manav Dhanda",570000,Seed,10,2,570000.0,5.7558756175919665,2020.0
+ANS Commerce,2017.0,E-commerce,"Amit Monga, Nakul Singh, Vibhor Sahare, Sushant Puri",2200000,Pre-Series A,10,4,2200000.0,6.342422878228744,2017.0
+GramCover,2016.0,Insurance,Dhyanesh Bhatt,7000000,Series A,10,1,7000000.0,6.845098102056321,2016.0
+Licious,2015.0,Food & Beverages,"Vivek Gupta, Abhay",52000000,Series G,10,2,52000000.0,7.7160033519866165,2015.0
+Chalo,2014.0,Mobility,"Vinayak Bhavnani, Mohit Dubey",40000000,Series C,10,2,40000000.0,7.602060002185325,2014.0
+Sunstone Eduversity,2011.0,EdTech,"Ashish Munjal, Piyush Nangru",28000000,Series B,10,2,28000000.0,7.447158046852736,2011.0
+Ozonetel,2007.0,Telecommunications,"CSN Murthy, Atul Sharma",5000000,Series A,10,2,5000000.0,6.698970091194907,2007.0
+CoinSwitch Kuber,2017.0,Crypto,"Ashish Singhal, Govind Soni, Vimal Sagar Tiwari",260000000,Series C,10,3,260000000.0,8.414973349641182,2017.0
+Pazcare,2020.0,Insurance,"Sanchit Malik, Manish Mishra",3500000,Seed,10,2,3500000.0,6.5440681684343955,2020.0
+kWh Bikes,2020.0,Automotive,"Siddharth Janghu, Kartik Gupta, Anupriya",2000000,Seed,10,3,2000000.0,6.301030212811168,2020.0
+IBSFINtech,2006.0,Information Technology & Services,"C M Grover, TM Manjunath",1000000,Pre-Series A,10,2,1000000.0,6.0000004342942646,2006.0
+Twin Health,2018.0,"Health, Wellness & Fitness",Jahangir Mohammed,140000000,Series C,10,1,140000000.0,8.146128038780342,2018.0
+Trica,2021.0,Equity Management,Nimesh Kampani,3000000,Seed,10,1,3000000.0,6.477121399484465,2021.0
+Rebel Foods,2011.0,Cloud kitchen,"Jaydeep Barman, Kallol Banerjee.",175000000,Series F,10,2,175000000.0,8.243038051167977,2011.0
+ProfitWheel,2020.0,Marketing & Advertising,"Vivek Bhargava, Gautam Mehra, Aman Khanna",3000000,Seed,10,3,3000000.0,6.477121399484465,2020.0
+Ishitva,2018.0,Computer Software,Jitesh Dadlani,1000000,Pre-Series A,10,1,1000000.0,6.0000004342942646,2018.0
+leap.club,2014.0,Community,"Ragini Das, Anand Sinha",810000,Pre-Series A,10,2,810000.0,5.908485555044346,2014.0
+F5,2018.0,Retail,"Raghav Arora, Lalit Aggarwal",600000,Pre-Series A,10,2,600000.0,5.7781519742071765,2018.0
+ForeignAdmits,2018.0,Higher Education,"Nikhil Jain, Ashwini Jain",400000,Seed,10,2,400000.0,5.60206107706281,2018.0
+SALT,2019.0,Financial Services,"Ankit Parasher, Udita Pal",500000,Pre-seed,10,2,500000.0,5.698970872924114,2019.0
+EarnWealth,2014.0,Financial Services,Rajesh P Nair,500000,Pre-Series A,10,1,500000.0,5.698970872924114,2014.0
+Crater.Club,2020.0,Media,"Vignesh Prasad, Vivan Puri",700000,Seed,10,2,700000.0,5.845098660434502,2020.0
+NFTically,2021.0,NFT,Toshendra Sharma,1000000,Seed,10,1,1000000.0,6.0000004342942646,2021.0
+ReshaMandi,2020.0,B2B,Utkarsh Apoorva,30000000,Series A,10,1,30000000.0,7.477121269196145,2020.0
+Hubilo,2020.0,Software Startup,"Mayank Agarwal, Vaibhav Jain",125000000,Series B,10,2,125000000.0,8.096910016482413,2020.0
+M2P Fintech,2015.0,Financial Services,Madhusudanan R,35000000,Series C,10,1,35000000.0,7.5440680567586895,2015.0
+Open Financial Technologies,2017.0,Financial Services,Anish Achuthan,90000000,Series C,10,1,90000000.0,7.954242514264819,2017.0
+Niro,2021.0,Financial Services,"Aditya Kumar, Sankalp Mathur",3500000,Seed,10,2,3500000.0,6.5440681684343955,2021.0
+CarDekho,2008.0,Automotive,"Amit Jain, Anurag Jain",250000000,Series E,10,2,250000000.0,8.397940010409215,2008.0
+AnKa SumMor,2017.0,Sales and Distribution,"Rajiv Joshi, Ashok George",1000000,Pre-Series A,10,2,1000000.0,6.0000004342942646,2017.0
+Toch.ai,2016.0,SaaS,"Vinayak Shrivastav, Saket Dandotia, Alok Patil",11000000,Series A,10,3,11000000.0,7.04139272463954,2016.0
+Playto Labs,2021.0,E-learning,Pavan Ponnaganti,500000,Seed,10,1,500000.0,5.698970872924114,2021.0
+Fraazo,2020.0,Food & Beverages,"Atul Kumar, Aashish Krishnatre",50000000,Series B,10,2,50000000.0,7.698970013021908,2020.0
+FloCareer,2018.0,Information Services,"Mohit Jain, Mehul Bhatt",5700000,Series A,10,2,5700000.0,6.755874931864499,2018.0
+Nap Chief,2019.0,Apparel & Fashion,Raghav Gupta,200000,Seed,10,1,200000.0,5.301032167130962,2019.0
+AcknoLedger,2021.0,Crypto,Yash Dahenkar,1500000,Seed,10,1,1500000.0,6.176091548585239,2021.0
+ApplicateAI,2014.0,Information Technology & Services,"Madhusudan Atmakuri, Ranjeet Kumar",30000000,Series A,10,2,30000000.0,7.477121269196145,2014.0
+Aviom India,2016.0,Financial Services,Kajal Ilmi,8000000,Series C,10,1,8000000.0,6.903090041278751,2016.0
+SaaS Labs,2016.0,SaaS,Gaurav Sharma,17000000,Series A,10,1,17000000.0,7.230448946925008,2016.0
+Devnagri,2017.0,Translation & Localization,"Nakul Kundra, Himanshu Sharma",600000,Seed,10,2,600000.0,5.7781519742071765,2017.0
+CRED,2018.0,Finance,Kunal Shah,250000000,Series E,10,1,250000000.0,8.397940010409215,2018.0
+ConveGenius,2013.0,Education Management,"Jairaj Bhattacharya, Shashank Pandey",5000000,Pre-seed,10,2,5000000.0,6.698970091194907,2013.0
+CredAble,2017.0,Financial Services,Nirav Choksi,30000000,Series B,10,1,30000000.0,7.477121269196145,2017.0
+MarketWolf,2017.0,Financial Services,"Vishesh Dhingra, Thomas Joseph",5500000,Seed,10,2,5500000.0,6.74036276845687,2017.0
+Wondrlab,2020.0,Marketing & Advertising,Saurabh Varma,7000000,Pre-series A,10,1,7000000.0,6.845098102056321,2020.0
+Tamasha,2020.0,Entertainment,"Saurabh Gupta, Siddharth Swarnkar",3000000,Pre-series A,10,2,3000000.0,6.477121399484465,2020.0
+Revfin,2017.0,Financial Services,Sameer Aggarwal,4000000,Pre-series A,10,1,4000000.0,6.6020600999015695,2017.0
+Yu Foodlabs,2020.0,Food & Beverages,"Bharat Bhalla, Varun Kapur",1000000,Pre-series A,10,2,1000000.0,6.0000004342942646,2020.0
+FarMart,2015.0,Farming,"Alekh Sanghera, Mehtab Singh Hans",10000000,Series A,10,2,10000000.0,7.000000043429446,2015.0
+Questt,2020.0,EdTech,"Akhil, Mohsin M, Rohit Pande",6750000,Series A,10,3,6750000.0,6.829303837170944,2020.0
+IDfy,2011.0,Information Technology & Services,Ashok Hariharan,10000000,Series D,10,1,10000000.0,7.000000043429446,2011.0
+ClearDekho,2016.0,Retail,"Saurabh Dayal, Shivi Singh",4000000,Pre-series A,10,2,4000000.0,6.6020600999015695,2016.0
+BookingJini,2017.0,Hospitality,"Deepak Dash, Gourab Kumar Nandy, Manoj Pandia, Sibasish Mishra",1200000,Pre-series A,10,4,1200000.0,6.079181607959542,2017.0
+Sourcewiz,2021.0,Information Technology & Services,"Divyaanshu Makkar, Vikas, Mayur",3000000,Seed,10,3,3000000.0,6.477121399484465,2021.0
+Kafqa Academy,2021.0,E-learning,Shariq Plasticwala,1300000,Seed,10,1,1300000.0,6.113943686379387,2021.0
+Storia,2016.0,Food & Beverages,Vishal Shah,6000000,Series A,10,1,6000000.0,6.7781513227660515,2016.0
+Clear,2011.0,Computer Software,"Archit Gupta, Srivatsan Chari",75000000,Series C,10,2,75000000.0,7.875061269182293,2011.0
+Groww,2016.0,Finance,"Lalit Keshre, Harsh Jain, Ishan Bansal, Neeraj Singh",250000000,Series E,10,4,250000000.0,8.397940010409215,2016.0
+Teachmint,2020.0,E-learning,"Divyansh Bordia, Mihir Gupta",78000000,Series B,10,2,78000000.0,7.8920946082583585,2020.0
+Porter,2014.0,Logistics & Supply Chain,"Pranav Goel, Uttam Digga, Vikas Choudhary",100000000,Series E,10,3,100000000.0,8.000000004342946,2014.0
+O4S,2017.0,Information Technology & Services,"Divay Kumar, Shreyans Sipani",6000000,Series A,10,2,6000000.0,6.7781513227660515,2017.0
+Wobb,2020.0,Marketing,Ishan Jindal,200000,Pre-seed,10,1,200000.0,5.301032167130962,2020.0
+BASIC Home Loan,2020.0,Financial Services,"Atul Monga, Kalyan Josyula",3500000,Series A,10,2,3500000.0,6.5440681684343955,2020.0
+Siply,2020.0,Financial Services,"Sousthav Chakrabarty, Anil Bhat",3200000,Pre-series A,10,2,3200000.0,6.50515011403691,2020.0
+Healofy,2016.0,Femtech,"Gaurav Aggarwal, Shubham Maheshwari",6000000,Series B,10,2,6000000.0,6.7781513227660515,2016.0
+E42,2012.0,Computer Software,"Animesh Samuel, Sanjeev Menon",5400000,Series A,10,2,5400000.0,6.732393840247865,2012.0
+Spottabl,2017.0,Human Resources,"Vanishri Deshpande, Satheesh K V, Anupam Choudhari",400000,Seed,10,3,400000.0,5.60206107706281,2017.0
+DeHaat,2012.0,Information Technology & Services,"Amrendra Singh, Shyam Sundar, Adarsh Srivastav, Shashank Kumar",115000000,Series D,10,4,115000000.0,8.060697844130086,2012.0
+Zolve,2020.0,Financial Services,Raghunandan G,40000000,Series A,10,1,40000000.0,7.602060002185325,2020.0
+SportZchain,2021.0,sports,Siddharth Jaiswal,400000,Pre-seed,10,1,400000.0,5.60206107706281,2021.0
+Hypto,2018.0,Tech startup,"Abhishek Rajagopal, Aravind Sriraman, Tholkappiyan Velavan",3000000,Seed,10,3,3000000.0,6.477121399484465,2018.0
+CHUPPS,2016.0,Foootwear,"Gaurav Agarwal, Yash Mukhi",1100000,Pre-series A,10,2,1100000.0,6.041393079971211,2016.0
+Zenduty,2019.0,Computer Software,"Ankur Rawal, Vishwa Krishnakumar",1900000,Pre-series A,10,2,1900000.0,6.278753829528812,2019.0
+Acko,2016.0,Insurance,"Varun Dua, Ruchi Deepak",255000000,Series D,10,2,255000000.0,8.406540182137071,2016.0
+LoveLocal,2015.0,Retail,Akanksha Hazari,18000000,Pre-series B,10,1,18000000.0,7.255272529230776,2015.0
+SupplyNote,2015.0,Food & Beverages,"Kushang, Abhishek Verma, Nitin Prakash, Harshit Mittal",1200000,Pre-series A,10,4,1200000.0,6.079181607959542,2015.0
+Cloudphysician,2017.0,Hospital & Health Care,"Dr Dhruv Joshi, Dr Dileep Raman",4000000,Pre-series A,10,2,4000000.0,6.6020600999015695,2017.0
+Wiggles.in,2018.0,Veterinary,Anushka Iyer,5500000,Pre-series A,10,1,5500000.0,6.74036276845687,2018.0
+Avanti Finance,2017.0,Financial Services,"Nandan Nilekani, Vijay Kelkar",15000000,Series A2,10,2,15000000.0,7.176091288008646,2017.0
+Vanity Wagon,2018.0,Consumer Goods,"Prateek, Naina Ruhail, Sahil Shreshtha",700000,Pre-series A,10,3,700000.0,5.845098660434502,2018.0
+MFine,2017.0,Hospital & Health Care,"Prasad Kompalli, Ashutosh Lawania",48000000,Series C,9,2,48000000.0,7.681241246423389,2017.0
+Mentza,2020.0,E-learning,"Anurag Vaish, Tapasi Mittal, Fareesh Vijayarangam, Anand Parameswaran, Divya Balakrishnan",400000,Seed,9,5,400000.0,5.60206107706281,2020.0
+ConnectedH,2018.0,Hospital & Health Care,"Shubham Gupta, Rahul Kumar, Suresh Singh",2300000,Seed,9,3,2300000.0,6.36172802484124,2018.0
+CredAvenue,2017.0,FinTech,Gaurav Kumar,90000000,Series A,9,1,90000000.0,7.954242514264819,2017.0
+Vedantu,2011.0,E-learning,"Vamsi Krishna, Pulkit Jain, Saurabh Saxena, Anand Prakash",100000000,Series E,9,4,100000000.0,8.000000004342946,2011.0
+Exotel,2011.0,Telecommunications,"Shivakumar Ganesan, Ishwar Sridharan, Siddharth Ramesh, Vijay Sharma",35000000,Series C,9,4,35000000.0,7.5440680567586895,2011.0
+Fantasy Akhada,2020.0,sports,"Amit Purohit, Sumit Kumar Jha",2000000,Series A,9,2,2000000.0,6.301030212811168,2020.0
+Cusmat,2016.0,Computer Software,"Abhinav Ayan, Anirban Jyoti Chakravorty",100000,Pre-series A,9,2,100000.0,5.000004342923105,2016.0
+Coinshift,2021.0,Blockchain,Tarun Gupta,2500000,Seed,9,1,2500000.0,6.397940182389796,2021.0
+Strip Finance,2021.0,Financial Services,"Varun Satyam, Yuvraj Chhibber, Yash Jejani",400000,Seed,9,3,400000.0,5.60206107706281,2021.0
+Kolo,2020.0,Construction,"Pranav Garg, Jery Althaf",550000,Pre-seed,9,2,550000.0,5.740363479119857,2020.0
+Chqbook,2017.0,FinTech,"Vipul Sharma, Rajat Kumar, Sachin Arora",5000000,Pre-series B,9,3,5000000.0,6.698970091194907,2017.0
+Rulezero,2019.0,Financial Services,"Satish Mugulavalli, Srinivas Katta",2500000,Seed,9,2,2500000.0,6.397940182389796,2019.0
+Karbon Card,2019.0,FinTech,"Pei-fu Hsieh, Amit Jangir, Kartik Jain, Sunil Sinha",12000000,Pre-series A,9,4,12000000.0,7.07918128223883,2019.0
+ePayLater,2015.0,Financial Services,"Aurko Bhattacharya, Akshat Saxena",10000000,Series B,9,2,10000000.0,7.000000043429446,2015.0
+Fittr,2016.0,"Health, Wellness & Fitness","Rohit Chattopadhyay, Jitendra Chouksey, Suniel Shetty, Sonal Singh, Bala Dabbedi",11000000,Series A,9,5,11000000.0,7.04139272463954,2016.0
+Medikabazaar,2014.0,Healthtech,"Vivek Tiwari, Ketan Malkan",75000000,Series C,9,2,75000000.0,7.875061269182293,2014.0
+Akudo,2020.0,Financial Services,"Lavika Aggarwal, Sajal Khanna, Jgaveer Gandhi",4200000,Seed,9,3,4200000.0,6.623249393801336,2020.0
+88academics,2018.0,Education,Anil Ahuja,3000000,Pre-series A,9,1,3000000.0,6.477121399484465,2018.0
+Sanfe,2018.0,"Health, Wellness & Fitness","Archit Aggarwal, Harry Sehrawat",1000000,Series A,9,2,1000000.0,6.0000004342942646,2018.0
+PredictiVu,2020.0,Management Consulting,,1500000,Pre-seed,9,0,1500000.0,6.176091548585239,2020.0
+Bijnis,2015.0,B2B startup,"Siddharth, Chaitanya Rathi, Siddharth Rastogi, Shubham Agarwal",30000000,Series B,9,4,30000000.0,7.477121269196145,2015.0
+Manch Technologies,2017.0,Information Technology & Services,Suresh Anantpurkar,1000000,Pre-series A,9,1,1000000.0,6.0000004342942646,2017.0
+Glamyo Health,2019.0,Hospital & Health Care,"Archit Garg, Dr Preet Pal Thakur",3000000,Series A,9,2,3000000.0,6.477121399484465,2019.0
+CashBook,2020.0,FinTech,"Vivek, Ashutosh Pathak",2300000,Seed,9,2,2300000.0,6.36172802484124,2020.0
+The Money Club,2016.0,Financial Services,"Manuraj Jain, Surajit Ra",1700000,Pre-series A,9,2,1700000.0,6.230449176845541,2016.0
+SuperZop,2016.0,Retail,"Raghuveer Allada, Prithwi Singh, Darshan Krishnamurthy",4000000,Series A,9,3,4000000.0,6.6020600999015695,2016.0
+Zypp Electric,2017.0,Logistics & Supply Chain,"Akash Gupta, Rashi Agarwal",7000000,Series A,9,2,7000000.0,6.845098102056321,2017.0
+VRO Hospitality,2018.0,Hospitality,"Safdhar Adoor, Sharath Rice, Dawn Thomas",3000000,Series A,9,3,3000000.0,6.477121399484465,2018.0
+Leena AI,2015.0,Computer Software,"Mayank Goyal, Anand Prajapati",30000000,Series B,9,2,30000000.0,7.477121269196145,2015.0
+CARS24,2015.0,Automotive,"Mehul Agrawal, Vikram Chopra",450000000,Series F,9,2,450000000.0,8.653212514740442,2015.0
+Klub,2019.0,Financial Services,"Anurakt Jain, Ishita Verma",2000000,Debt,9,2,2000000.0,6.301030212811168,2019.0
+Bluepad,2020.0,Online Media,"Sanjyot Bhosale, Devakrishna Asokar, Kishore Garimella",200000,Pre-seed,9,3,200000.0,5.301032167130962,2020.0
+FloBiz,2019.0,Information Technology & Services,"Rahul Raj, Aditya Naik, Rakesh Yadav",31000000,Series B,9,3,31000000.0,7.4913617078437715,2019.0
+Tummoc,2016.0,Mobility,"Hiranmay Mallick, Monalisha Thakur, Narayan Mishra",540000,Seed,9,3,540000.0,5.732394564071265,2016.0
+Aerchain,2019.0,Computer Software,"Harsha Kadimisetty, Himavanth Jasti",3000000,Pre-series A,9,2,3000000.0,6.477121399484465,2019.0
+CuriousJr,2020.0,E-learning,"Amit Shekhar, Janishar Ali, Mridul Ranjan Sahu",1000000,Seed,9,3,1000000.0,6.0000004342942646,2020.0
+Wow! Momo,2008.0,Food & Beverages,"Binod Homagai, Sagar Daryani, Shah Miftaur Rahman",15000000,Series C,9,3,15000000.0,7.176091288008646,2008.0
+ZestMoney,2015.0,Financial Services,"Priya Sharma, Lizzie Chapman",50000000,Series C,9,2,50000000.0,7.698970013021908,2015.0
+FrontRow,2020.0,E-learning,"Shubhadit Sharma, Mikhil Raj, Ishaan Preet Singh",14000000,Series A,9,3,14000000.0,7.146128066699271,2020.0
+HappyCredit,2020.0,FinTech,"Jitendra Kumar, Ashish Virmani",600000,Pre-seed,9,2,600000.0,5.7781519742071765,2020.0
+Endimension,2018.0,Healtcare,"Bharadwaj Kss, Apparao MLV, Kurien Zacharia",300000,Seed,9,3,300000.0,5.477122702365523,2018.0
+BeepKart,2020.0,Automotive,"Hemir Doshi, Abhishek Saraf",3000000,Seed,9,2,3000000.0,6.477121399484465,2020.0
+Lio,2020.0,Computer Software,Anupam Vijayvergia,5000000,Seed,9,1,5000000.0,6.698970091194907,2020.0
+TravClan,2018.0,B2B Travel,"Arun Bagaria, Ashish Thapliyal",2200000,Pre-series A,9,2,2200000.0,6.342422878228744,2018.0
+WickedGud,2021.0,Food & Beverages,Bhuman Dani,340000,Pre-seed,9,1,340000.0,5.531480194377088,2021.0
+BetterPlace,2014.0,Information Technology & Services,Pravin Agarwala,24000000,Series C,9,1,24000000.0,7.380211259807209,2014.0
+GTM Buddy,2020.0,Computer Software,"Sreedhar Peddineni, Santa Thounaojam, Sundar Vellaichamy, Chandramani Tiwary",2000000,Seed,9,4,2000000.0,6.301030212811168,2020.0
+Gobbly,2019.0,Retail,"Ankur Agarwal, Amit Ahuja",900000,Pre-series A,9,2,900000.0,5.954242991988481,2019.0
+HexaHealth,2019.0,Healthtech,"Vikas Chauhan, Ankur Gigras, Dr Aman Priya Khanna",4500000,Seed,9,3,4500000.0,6.653212610285218,2019.0
+Eupheus Learning,2017.0,E-learning,"Sarvesh Shrivastava, Ved Prakash Khatri, Amit Kapoor",10000000,Series C,9,3,10000000.0,7.000000043429446,2017.0
+Anar,2019.0,Information Technology & Services,"Nishank Jain, Sanjay Bhat",6200000,Seed,9,2,6200000.0,6.792391759545746,2019.0
+Shadez,2019.0,Consumer Services,"Adarsh Anand, Amit Tiwari",200000,Pre-series A,9,2,200000.0,5.301032167130962,2019.0
+Vahan,2016.0,Information Technology & Services,Madhav Krishna,8000000,Series A,9,1,8000000.0,6.903090041278751,2016.0
+Artium Academy,2021.0,Music,"Ashish Joshi, Nithya Sudhir",750000,Seed,9,2,750000.0,5.875061842450624,2021.0
+Awon GameZ,2020.0,Gaming,Amardeep Bajpai,2000000,Seed,9,1,2000000.0,6.301030212811168,2020.0
+Ayu Health,2019.0,"Health, Wellness & Fitness","Himesh Joshi, Arijit Gupta, Karan Gupta",6300000,Series A,9,3,6300000.0,6.799340618389208,2019.0
+Apna,2019.0,Recruitment,Nirmit Parikh,100000000,Series C,9,1,100000000.0,8.000000004342946,2019.0
+BharatAgri,2017.0,AgriTech,"Sai Gole, Siddharth Dialani",6500000,Series A,9,2,6500000.0,6.8129134234573865,2017.0
+Flatheads,2018.0,Apparel & Fashion,"Utkarsh Biradar, Ganesh Balakrishnan",1000000,Pre-series A,9,2,1000000.0,6.0000004342942646,2018.0
+Paytail,2020.0,Financial Services,"AMIT CHATURVEDI, Vikas Garg",1500000,Seed,9,2,1500000.0,6.176091548585239,2020.0
+4Fin,2021.0,Financial Services,"Amit Tewary, Ajit Sinha",1100000,Pre-seed,9,2,1100000.0,6.041393079971211,2021.0
+immunitoAI,2020.0,Biotechnology,"Aridni Shah, Trisha Chatterjee",1000000,Seed,9,2,1000000.0,6.0000004342942646,2020.0
+Farmers Fresh Zone,2015.0,AgriTech,Pradeep PS,800000,Pre-series A,9,1,800000.0,5.903090529859707,2015.0
+Anveshan,2019.0,Food Production,"Aayushi Khandelwal, Akhil Kansal, Kuldeep Parewa",500000,Seed,9,3,500000.0,5.698970872924114,2019.0
+Coutloot,2016.0,Consumer Services,"Mahima Kaul, Jasmeet Thind",8000000,Pre-series,9,2,8000000.0,6.903090041278751,2016.0
+Nova Benefits,2020.0,"Health, Wellness & Fitness","Saransh Garg, Yash Gupta",10000000,Series A,9,2,10000000.0,7.000000043429446,2020.0
+HomeLane,2014.0,Interior Design,Srikanth Iyer,50000000,Series E,9,1,50000000.0,7.698970013021908,2014.0
+Jar,2021.0,FinTech,"Nishchay AG, Misbah Ashraf",4500000,Pre-series A,9,2,4500000.0,6.653212610285218,2021.0
+moneyHOP,2018.0,Financial Services,Mayank Goyal,1200000,Seed,9,1,1200000.0,6.079181607959542,2018.0
+Codingal,2020.0,EdTech,"Vivek Prakash, Satyam Baranwal",1200000,Seed,9,2,1200000.0,6.079181607959542,2020.0
+Skit,2016.0,AI startup,"Sourabh Gupta, Akshay Deshraj",23000000,Series B,9,2,23000000.0,7.361727854899962,2016.0
+Peak,2014.0,"Manchester, Greater Manchester",Atul Sharma,75000000,Series C,9,1,75000000.0,7.875061269182293,2014.0
+REVOS,2017.0,Automotive,"Mohit Yadav, Jyotrian Jan Harichandran",4000000,Series A,9,2,4000000.0,6.6020600999015695,2017.0
+Dezerv.,2021.0,Investment Management,"Sandeep Jethwani, Vaibhav Porwal, Sahil Contractor",7000000,Seed,9,3,7000000.0,6.845098102056321,2021.0
+AppsForBharat,2020.0,Product studio,Prashant Sachan,10000000,Series A,9,1,10000000.0,7.000000043429446,2020.0
+Habbit,2020.0,EdTech,"Somnath Sandeep, Raghav Goyal",320000,Pre-seed,9,2,320000.0,5.5051513354880415,2020.0
+Bikayi,2019.0,E-commerce,"Sonakshi Nathani, Ashutosh Singla",10000000,Series A,9,2,10000000.0,7.000000043429446,2019.0
+Dukaan,2020.0,Retail,"Suumit Shah, Subhash Choudhary",11000000,Series A,9,2,11000000.0,7.04139272463954,2020.0
+Vidyakul,2017.0,EdTech,"Tarun Saini, Gaurav Singhvi",500000,Bridge,9,2,500000.0,5.698970872924114,2017.0
+Goodmylk,2015.0,Food & Beverages,Abhay Rangan,1000000,Seed,9,1,1000000.0,6.0000004342942646,2015.0
+Fieldproxy,2016.0,SaaS startup,"Swaroop Vijayakumar, Balakrishna B",200000,Seed,9,2,200000.0,5.301032167130962,2016.0
+NeuroPixel.AI,2020.0,Deeptech,,800000,Seed,9,0,800000.0,5.903090529859707,2020.0
+Elixia Tech Solutions,2011.0,Information Technology & Services,Sanket Sheth,1000000,Pre-series A,9,1,1000000.0,6.0000004342942646,2011.0
+bitsCrunch,2020.0,Blockchain,Saravanan Jaichandaran,700000,Seed,9,1,700000.0,5.845098660434502,2020.0
+Prolgae,2016.0,Biotechnology,Aakas Sadasivam,200000,Seed,9,1,200000.0,5.301032167130962,2016.0
+Biddano,2016.0,"Health, Wellness & Fitness","Talha Shaikh, Ashok Yadav",2000000,Pre-series A1,9,2,2000000.0,6.301030212811168,2016.0
+Neokred,2019.0,FinTech,"Tarun Nazare, Rohith Reji",500000,Seed,9,2,500000.0,5.698970872924114,2019.0
+Delhivery,2011.0,Logistics & Supply Chain,Sahil Barua,76000000,Series I,9,1,76000000.0,7.880813597995193,2011.0
+Flipspaces,2011.0,Design,Kunal Sharma,2000000,Pre-series B,9,1,2000000.0,6.301030212811168,2011.0
+Fleek,2021.0,Internet,"Aditya Uttaravalli, Arvind Eashwar",1000000,Seed,9,2,1000000.0,6.0000004342942646,2021.0
+GoKwik,2020.0,Information Technology & Services,"Ankush Talwar, Chirag Taneja, Vivek Bajpai",5000000,Pre-series A,9,3,5000000.0,6.698970091194907,2020.0
+Proeon,2018.0,Food Production,"Ashish Korde, Kevin Parekh",2000000,Seed,9,2,2000000.0,6.301030212811168,2018.0
+InfyU Labs,2019.0,AgriTech,"Amit Srivastava, Ankit Chauhan",200000,Seed,9,2,200000.0,5.301032167130962,2019.0
+TechEagle,2015.0,Aviation & Aerospace,Vikram Singh Meena,500000,Seed,9,1,500000.0,5.698970872924114,2015.0
+Cogos Technologies,2016.0,Logistics & Supply Chain,Prasad Sreeram,2000000,Pre-series A,9,1,2000000.0,6.301030212811168,2016.0
+Gigforce,2019.0,Staffing & Recruiting,"Chirag Mittal, Anirudh Syal",3000000,Pre-series A,9,2,3000000.0,6.477121399484465,2019.0
+Vahdam,2015.0,Food & Beverages,Bala Sarda,20000000,Series D,9,1,20000000.0,7.301030017378705,2015.0
+Leap Finance,2019.0,Financial Services,"Arnav Kumar, Vaibhav Singh",55000000,Series C,9,2,55000000.0,7.740362697390507,2019.0
+CollegeDekho,2015.0,EdTech,Ruchir Arora,26000000,Series B,9,1,26000000.0,7.414973364674451,2015.0
+WeRize,2019.0,Financial Services,"Vishal Chopra, Himanshu Gupta",8000000,Series A,9,2,8000000.0,6.903090041278751,2019.0
+TartanSense,2015.0,Information Technology,Jaisimha Rao,5000000,Series A,8,1,5000000.0,6.698970091194907,2015.0
+Kirana247,2018.0,Logistics & Supply Chain,"Tarun Jiwarajka, Pankhuri Jiwarajka",1000000,Pre-series A,8,2,1000000.0,6.0000004342942646,2018.0
+IsGoingOnline,2015.0,Retail,Eobin Alex,200000,Pre-series A,8,1,200000.0,5.301032167130962,2015.0
+Camp K12,2010.0,EdTech,Anshul Bhagi,12000000,Series A,8,1,12000000.0,7.07918128223883,2010.0
+Elda Health,2020.0,Healthcare,"Swathi Kulkarni, Sindhuri Ananth, Shubham Sharma",1500000,Seed,8,3,1500000.0,6.176091548585239,2020.0
+Sporjo,2020.0,SportsTech,G Srinivvasan,2000000,Pre-series A,8,1,2000000.0,6.301030212811168,2020.0
+SuperGaming,2017.0,Gaming,"Roby John, Sanket Nadhani, Navneet Waraich",5500000,Series A,8,3,5500000.0,6.74036276845687,2017.0
+Zetwerk,2018.0,Mechanical & Industrial Engineering,"Srinath Ramakkrushnan, Amrit Acharya",150000000,Series E,8,2,150000000.0,8.176091261950978,2018.0
+AppsForBharat,2020.0,Spiritual,Prashant Sachan,4000000,Seed,8,1,4000000.0,6.6020600999015695,2020.0
+Khatabook,2018.0,Financial Services,"Ravish Naresh, Ashish Sonone",100000000,Series C,8,2,100000000.0,8.000000004342946,2018.0
+Smytten,2015.0,Consumer Goods,"Swagat Sarangi, Siddhartha Nangia.",6000000,Series A,8,2,6000000.0,6.7781513227660515,2015.0
+Syook,2016.0,Industrial Automation,"Saurabh Sharma, Aman Agarwal, Arjun Nagarajan",1000000,Series A,8,3,1000000.0,6.0000004342942646,2016.0
+NOTO,2019.0,Consumer Goods,"Varun Sheth, Ashni Sheth",500000,Pre-Series A,8,2,500000.0,5.698970872924114,2019.0
+Lumiq,2013.0,Information Technology,Shoaib Mohammad,2000000,Seed,8,1,2000000.0,6.301030212811168,2013.0
+Breathe Well-being,2015.0,Health,"Rohan Verma, Aditya Kaicker",5500000,Series A,8,2,5500000.0,6.74036276845687,2015.0
+Probus,2017.0,IoT,"Anand Singh, Ankit Vaish, Sunny Kumar Jadoon",500000,Bridge,8,3,500000.0,5.698970872924114,2017.0
+Smart Express,,Logistics,Yogesh Dhingra,10000000,Seed,8,1,10000000.0,7.000000043429446,
+Smallcase,2015.0,FinTech,"Anugrah Shrivastava, Vasanth Kamath, Rohan Gupta",40000000,Series C,8,3,40000000.0,7.602060002185325,2015.0
+Postman,2014.0,Computer software,"Abhinav Asthana, Abhijit Kane, Ankit Sobti",225000000,Series D,8,3,225000000.0,8.352182520041561,2014.0
+Hashnode,2016.0,Computer software,"Syed Fazle Rahman, Sandeep Panda",6700000,Series A,8,2,6700000.0,6.8260748675208935,2016.0
+RACEnergy,2018.0,Automotive,Arun Sreyas Reddy,1300000,Seed+,8,1,1300000.0,6.113943686379387,2018.0
+BharatPe,2018.0,FinTech,"Ashneer Grover, Shashvat Nakrani",20000000,Debt,8,2,20000000.0,7.301030017378705,2018.0
+Gyde,2019.0,Computer software,"Prasanna Vaidya, Shubham Deshmukh",250000,Seed,8,2,250000.0,5.397941745846491,2019.0
+AgNext,2016.0,AgriTech,Taranjeet Singh Bhamra,21000000,Series A,8,1,21000000.0,7.322219315414609,2016.0
+Xpresslane,2019.0,Tech startup,Ashwin Koorakula,400000,Pre-seed,8,1,400000.0,5.60206107706281,2019.0
+LoanKuber,2016.0,Digital mortgage,Saurabh Nagpal,1200000,Pre-Series A,8,1,1200000.0,6.079181607959542,2016.0
+OYO,2013.0,Hospitality,Ritesh Agarwal,5000000,Series F2,8,1,5000000.0,6.698970091194907,2013.0
+Log 9 Materials,2014.0,Deeptech,"Akshay Singhal, Kartik Hajela",8500000,Series A+,8,2,8500000.0,6.929418976807758,2014.0
+FlashPrep,2020.0,EdTech,"Dhiresh Nagwani, Ashwini Dhekane",500000,Pre-seed,8,2,500000.0,5.698970872924114,2020.0
+Kenko Health,2019.0,Insuretech,"Aniruddha Sen, Dhiraj Goel",1700000,Pre-series A,8,2,1700000.0,6.230449176845541,2019.0
+Wiz Freight,2020.0,Logistics & Supply Chain,"Ramkumar Govindarajan, Ramkumar Ramachandran",3500000,Seed,8,2,3500000.0,6.5440681684343955,2020.0
+Credgenics,2018.0,Financial Services,"Rishabh Goel, Mayank Khera, Anand Agrawal",25000000,Series A,8,3,25000000.0,7.397940026043816,2018.0
+BlueLearn,2020.0,EdTech,"Harish Uthayakumar, Shreyans Sancheti",400000,Pre-seed,8,2,400000.0,5.60206107706281,2020.0
+NimbleBox.ai,2018.0,MLOps platform,"Anshuman Pandey, Rohan Pooniwala",1000000,Seed,8,2,1000000.0,6.0000004342942646,2018.0
+Pickrr,2015.0,Logistics & Supply Chain,"Rhitiman Majumdar, Gaurav Mangla, Ankit Kaushik",12000000,Series B,8,3,12000000.0,7.07918128223883,2015.0
+Grip Invest,2020.0,Financial Services,"Nikhil Aggarwal, Vivek Gulati",3000000,Series A,8,2,3000000.0,6.477121399484465,2020.0
+Heads Up For Tails,2008.0,Pet care,Rashi Sanon,37000000,Series A,8,1,37000000.0,7.568201735804683,2008.0
+Blue Tokai Coffee Roasters,2012.0,Food & Beverages,"Matt Chitharanjan, Shivam Shahi, Namrata Asthana",2000000,Pre-series B,8,3,2000000.0,6.301030212811168,2012.0
+Neeman,2017.0,Consumer Goods,Taran Chhabra,2000000,Series A,8,1,2000000.0,6.301030212811168,2017.0
+BharatPe,2018.0,FinTech,"Ashneer Grover, Shashvat Nakrani",370000000,Series E,8,2,370000000.0,8.568201725240764,2018.0
+GoSats,2020.0,FinTech,"Mohammed Roshan, Roshni Aslam",700000,Seed,8,2,700000.0,5.845098660434502,2020.0
+StockGro,2020.0,FinTech,Ajay Lakhotia,5000000,Pre-series A,8,1,5000000.0,6.698970091194907,2020.0
+Onsurity,2020.0,Healthcare,"Yogesh Agarwal, Kulin Shah",16000000,Series A,8,2,16000000.0,7.204120009799329,2020.0
+Khabri,2017.0,Media,"Pulkit Sharma, Aankit Roy, Sandeep Singh",2000000,Pre-series A,8,3,2000000.0,6.301030212811168,2017.0
+Rocket Skills,2020.0,EdTech,"Vibhu Bahuguna, Mohit Jain",200000,Pre-seed,8,2,200000.0,5.301032167130962,2020.0
+RenewBuy,2015.0,FinTech,Balachander Sekhar,10000000,Series C,8,1,10000000.0,7.000000043429446,2015.0
+Faarms,2020.0,AgriTech,"Taranbir Singh, Alok Duggal",2000000,Seed,8,2,2000000.0,6.301030212811168,2020.0
+Jupiter,2019.0,Banking,Jitendra Gupta,44000000,Series B,8,1,44000000.0,7.643452686356516,2019.0
+Pixuate,2012.0,DeepTech,"Akshata Kari, Prathvi Palekar",1000000,Seed,8,2,1000000.0,6.0000004342942646,2012.0
+Playo,2014.0,SportsTech,Daanish Suhail,500000,Pre-series A,8,1,500000.0,5.698970872924114,2014.0
+Toothsi,2018.0,Health,"Dr Arpi Mehta, Dr Pravin Shetty, Dr Manjul Jain, Dr Anirudh Kale",20000000,Series B,8,4,20000000.0,7.301030017378705,2018.0
+Soothe Healthcare,2012.0,Consumer Goods,Sahil Dharia,10000000,Series C,8,1,10000000.0,7.000000043429446,2012.0
+Goodmeetings,2020.0,Computer software,Srinivasan Narayan,1700000,Series A,8,1,1700000.0,6.230449176845541,2020.0
+Apnaklub,2020.0,Wholesale,"Shruti, Manish Kumar",3500000,Seed,8,2,3500000.0,6.5440681684343955,2020.0
+ChefKart,2020.0,Consumer Goods,"Vaibhav Gupta, Arpit Gupta, Aman Gupta",300000,Pre-seed,8,3,300000.0,5.477122702365523,2020.0
+Fashinza,2020.0,Apparel & Fashion,"Pawan Gupta, Abhishek Sharma",20000000,Series A,8,2,20000000.0,7.301030017378705,2020.0
+QuickShift,2016.0,Logistics & Supply Chain,Anshul Goenka,770000,Seed,8,1,770000.0,5.886491289190923,2016.0
+infra.market,2016.0,Construction,"Souvik Sengupta, Aaditya Sharda",125000000,Series D,8,2,125000000.0,8.096910016482413,2016.0
+SP Robotic Works,2012.0,EdTech,"Sneha Priya, Pranavan S",3000000,Series A,7,2,3000000.0,6.477121399484465,2012.0
+3SC,2018.0,Logistics,"Lalit, Sarita Das",15000000,Series B,7,2,15000000.0,7.176091288008646,2018.0
+Minimalist,2020.0,Cosmetics,"Mohit, Rahul Yadav",10000000,Series A,7,2,10000000.0,7.000000043429446,2020.0
+Fixcraft,2018.0,Automotive,"Vivek Sharma, Abhishek Goyal, Inderjeet Rao",1000000,Pre-series A,7,3,1000000.0,6.0000004342942646,2018.0
+90+ My Tuition App,2015.0,EdTech,Vingish Vijay,5000000,Series A,7,1,5000000.0,6.698970091194907,2015.0
+Wasabi,2021.0,Consulting,"Pradeep Dodle, Nikhil Goenka",1800000,Seed,7,2,1800000.0,6.255272746377951,2021.0
+Strata,2019.0,Real Estate,"Sudarshan Lodha, Priyanka Rathore",6000000,Series A,7,2,6000000.0,6.7781513227660515,2019.0
+Ourbetterplanet,2020.0,E-commerce,Pallavi Srivastava,300000,Seed,7,1,300000.0,5.477122702365523,2020.0
+Murf.ai,2020.0,SaaS startup,"Sneha Roy, Ankur Edkie, Divyanshu Pandey",1500000,Seed,7,3,1500000.0,6.176091548585239,2020.0
+MYFITNESS,2019.0,Fitness,"Mohammad Patel, Rahil Virani",1000000,Seed,7,2,1000000.0,6.0000004342942646,2019.0
+I am Love,2020.0,Healthcare,Shilpa Rathi,4000000,Seed,7,1,4000000.0,6.6020600999015695,2020.0
+Eloelo,2015.0,Gaming,"Saurabh Pandey, Akshay Dubey",2000000,Pre-series A,7,2,2000000.0,6.301030212811168,2015.0
+Edukemy,2020.0,EdTech,Chandrahas Panigrahi,2000000,Pre-series A,7,1,2000000.0,6.301030212811168,2020.0
+Zingbus,2019.0,Mobility,"Mratunjay, Prashant Kumar, Ravi Kumar Verma",5000000,Pre-series A,7,3,5000000.0,6.698970091194907,2019.0
+NewsReach,2018.0,Media,"Soniya Kundnani, Darshan Shah",300000,Seed,7,2,300000.0,5.477122702365523,2018.0
+Pencilton,2017.0,FinTech,"VishwajitPureti, Ashish Singh, Pallavi Tipparaju, Viraj Gadde",330000,Pre-seed,7,4,330000.0,5.518515255919778,2017.0
+The Whole Truth,2019.0,Food & Beverages,Shashank Mehta,6000000,Series A,7,1,6000000.0,6.7781513227660515,2019.0
+Insane AI,2021.0,Fitness,"Anurag Mundhada, Jayesh Hannurkar, Sourabh Agrawal",800000,Seed,7,3,800000.0,5.903090529859707,2021.0
+Go Swift,2019.0,Consumer Services,"Shyam Kalita, Debanshu Sinha, Prayas Mittal",2000000,Pre-series A,7,3,2000000.0,6.301030212811168,2019.0
+G.O.A.T,2021.0,D2C,"Rishi Vasudev, Rameswar Misra",36000000,Series A,7,2,36000000.0,7.556302512831023,2021.0
+ReDesyn,2016.0,Merchandise,"Smriti Dubey, Shikhar Vaidya",300000,Pre-series A,7,2,300000.0,5.477122702365523,2016.0
+Knorish,2016.0,EdTech,"Rakhi Wadhwa, Kinner N Sacchdev",1000000,Pre-series A,7,2,1000000.0,6.0000004342942646,2016.0
+Dozee,2015.0,Healthcare,"Mudit Dandwate, Dandwate",5000000,Series A,7,2,5000000.0,6.698970091194907,2015.0
+BlackBuck,2015.0,Logistics & Supply Chain,"B Ramasubramanian, Chanakya Hridaya, Rajesh Yabaji",67000000,Series E,7,3,67000000.0,7.826074809182834,2015.0
+Mailmodo,2020.0,Marketing & Advertising,"Aquibur Rahman, Apurv Gupta, Devyesh Tandon",2000000,Seed,7,3,2000000.0,6.301030212811168,2020.0
+NirogStreet,2018.0,Healthcare,Ram N Kumar,2500000,Series A,7,1,2500000.0,6.397940182389796,2018.0
+Even,2020.0,Healthcare,"Mayank Banerjee, Matilde Giglio, Alessandro Davide Ialongo",5000000,Seed,7,3,5000000.0,6.698970091194907,2020.0
+Captain Fresh,2019.0,Logistics,Utham Gowda,12000000,Series A,7,1,12000000.0,7.07918128223883,2019.0
+Otipy,2020.0,Food & Beverages,Varun Khurana,10200000,Series A,7,1,10200000.0,7.008600214339806,2020.0
+Edvizo,2017.0,Consumer Services,Ravi Nishant,1000000,Pre-series A,7,1,1000000.0,6.0000004342942646,2017.0
+GlobalBees,2021.0,D2C Business,Nitin Agarwal,150000000,Series A,7,1,150000000.0,8.176091261950978,2021.0
+Spinny,2015.0,Automotive,"Niraj Singh, Mohit Gupta, Ramanshu Mahaur",108000000,Series D,7,3,108000000.0,8.033423759508194,2015.0
+Mynvax,2017.0,Biotechnology,"Dr Raghavan Varadarajan, Dr Gautham Nadig",4000000,Series A,7,2,4000000.0,6.6020600999015695,2017.0
+Uvi Health,2020.0,Healthcare,Mehak Malik,330000,Pre-seed,7,1,330000.0,5.518515255919778,2020.0
+HealthifyMe,2012.0,Healthcare,"Tushar Vashisht, Sachin Shenoy",75000000,Series C,7,2,75000000.0,7.875061269182293,2012.0
+Sea6 Energy,2010.0,Biotechnology,"Sailaja Nori, Nelson Vadassery, Sowmya Balendiran, Shrikumar Suryanarayan",9000000,Series B,7,4,9000000.0,6.954242557694265,2010.0
+Beco,2018.0,Consumer Goods,"Aditya Ruia, Akshay Varma, Anuj Ruia",500000,Seed,7,3,500000.0,5.698970872924114,2018.0
+MedPay,2020.0,Information Technology,"Arun Bhatia, Ravi Chandra",1200000,Seed,7,2,1200000.0,6.079181607959542,2020.0
+Digantara,2018.0,SpaceTech,"Anirudh N Sharma, Rahul Rawat, Tanveer Ahmed",2500000,Seed,7,3,2500000.0,6.397940182389796,2018.0
+Aqgromalin,2018.0,AgriTech,"Prasanna Manogaran, Bharani CL",700000,Seed,7,2,700000.0,5.845098660434502,2018.0
+Ola Electric,2017.0,Automotive,Bhavish Aggarwal,100000000,Debt,7,1,100000000.0,8.000000004342946,2017.0
+Trell,2016.0,Social commerce,"Pulkit Agarwal, Prashant Sachan, Arun Lodhi, Bimal Kartheek Rebba",45000000,Series B,7,4,45000000.0,7.653212523426332,2016.0
+EasyAspataal,2020.0,Healthcare,"Manoj Gupta, Gunjali Kothari",500000,Seed,7,2,500000.0,5.698970872924114,2020.0
+Arcana,2019.0,Information Technology,"Mayur Relekar, Aravindh Kumar, Abhishek Chaudhary",370000,Seed,7,3,370000.0,5.568202897834279,2019.0
+Aquaconnect,2017.0,Fishery,Rajamanohar,4000000,Pre-series A,7,1,4000000.0,6.6020600999015695,2017.0
+LetsDressUp,2019.0,Apparel & Fashion,Aditya B,300000,Pre-series A,7,1,300000.0,5.477122702365523,2019.0
+Ati Motors,2017.0,Automotive,"Saurabh Chandra, Saad Nasser",35000000,Pre-series A,7,2,35000000.0,7.5440680567586895,2017.0
+peAR,2018.0,Deeptech,"Dharmin Vora, Dhruvesh Mehta, Parth Vora",300000,Pre-series A1,7,3,300000.0,5.477122702365523,2018.0
+The Sleep Company,2019.0,Consumer Goods,,1000000,Pre-series A,7,0,1000000.0,6.0000004342942646,2019.0
+ION Energy,2016.0,Automotive,Akhil Aryan,3600000,Pre-series A,7,1,3600000.0,6.556302621404627,2016.0
+FRAAZO,2020.0,Food & Beverages,"Atul Kumar, Aashish Krishnatre",11000000,Series A,7,2,11000000.0,7.04139272463954,2020.0
+Licious,2015.0,Food & Beverages,"Abhay Hanjura, Vivek Gupta",192000000,Series F,7,2,192000000.0,8.2833012309655,2015.0
+WinZO,2018.0,Gaming,Paavan Nanda,65000000,Series C,7,1,65000000.0,7.812913363324309,2018.0
+Skylark Drones,2014.0,Aviation,Mughilan Thiru Ramasamy,3000000,Pre-series A,7,1,3000000.0,6.477121399484465,2014.0
+MyMobiForce,2018.0,Internet,"Dheeraj Khatter, Himanshu Kumar, Kshitiz Saini",1400000,Pre-series A,7,3,1400000.0,6.146128345888472,2018.0
+Neverinstall,2019.0,Information Technology,"Lakshmana Pasala, Ram Pasala",370000,Seed,7,2,370000.0,5.568202897834279,2019.0
+BeatO,2015.0,Healthcare,Gautam Chopra,5000000,Pre-series B,7,1,5000000.0,6.698970091194907,2015.0
+Earth Rhythm,2020.0,Cosmetics,Harini Sivakumar,1200000,Seed,7,1,1200000.0,6.079181607959542,2020.0
+Fountain9,2019.0,Computer software,"Niki Khokale, Rajas Lonkar",1900000,Seed,7,2,1900000.0,6.278753829528812,2019.0
+Shiprocket,2012.0,Logistics,"Saahil Goel, Akshay Ghulati",41000000,Series D1,7,2,41000000.0,7.612783867312284,2012.0
+Teachmint,2020.0,EdTech,"Mihir Gupta, Payoj Jain, Divyansh Bordia, Anshuman Kumar",20000000,Pre-series B,7,4,20000000.0,7.301030017378705,2020.0
+Vahak,2017.0,Transportation,"Vikas Chandrawat, Karan Shaha",5000000,Pre-series A,7,2,5000000.0,6.698970091194907,2017.0
+goSTOPS,2014.0,Hospitality,"Pallavi Agarwal, Pankaj Parwanda",1000000,Pre-series A,7,2,1000000.0,6.0000004342942646,2014.0
+Delhivery,2011.0,Logistics,"Bhavesh Manglani, Kapil Bharati, Mohit Tandon, Sahil Barua, Suraj Saharan",270000000,Series H,6,5,270000000.0,8.431363765767486,2011.0
+Avishkaar,2014.0,EdTech,"Rajeev Gaba, Tarun Bhalla",600000,Pre-series A,6,2,600000.0,5.7781519742071765,2014.0
+Jobsgaar,2020.0,Job discovery platform,Atul Pratap Singh,140000,Seed,6,1,140000.0,5.146131137770602,2020.0
+Breathe Well-being,2015.0,HealthCare,"Aditya Kaicker, Rohan Verma",1000000,Pre-series A,6,2,1000000.0,6.0000004342942646,2015.0
+Urban Company,2014.0,Home services,"Abhiraj Singh Bhal, Raghav Chandra, Varun Khaitan",250000000,Series F,6,3,250000000.0,8.397940010409215,2014.0
+MYBYK,2014.0,Rental,Arjit Soni,1000000,Pre-series A,6,1,1000000.0,6.0000004342942646,2014.0
+Locus,2015.0,Logistics,"Geet Garg, Nishith Rastogi",50000000,Series C,6,2,50000000.0,7.698970013021908,2015.0
+Crejo.Fun,2020.0,EdTech,Vikas Bansal,3000000,Seed,6,1,3000000.0,6.477121399484465,2020.0
+Bambinos,2020.0,EdTech,"Ashish Gupta, Ankit Hetamsaria",500000,Seed,6,2,500000.0,5.698970872924114,2020.0
+Spardha,2016.0,EdTech,"Saurabh Srivastav, Amrita Srivastav",400000,Pre-series A1,6,2,400000.0,5.60206107706281,2016.0
+Fyllo,2019.0,AgriTech,"Sudhanshu Rai, Sumit Sheoran",400000,Seed,6,2,400000.0,5.60206107706281,2019.0
+Swiflearn,2019.0,EdTech,"Abhinav Agarwal, Anand Bakode",3000000,Pre-series A,6,2,3000000.0,6.477121399484465,2019.0
+QuickSell,2017.0,E-commerce,Deepak Bhagchandani,2000000,Pre-series A,6,1,2000000.0,6.301030212811168,2017.0
+Truemeds,2019.0,Heathcare,"Akshat Nayyar, Kunal Wani",5000000,Series A,6,2,5000000.0,6.698970091194907,2019.0
+F5,2018.0,Food & Beverages,"Lalit Aggarwal, Raghav Arora",300000,Pre-series A,6,2,300000.0,5.477122702365523,2018.0
+IntelleWings,2019.0,IT startup,Pramod Sharma,100000,Seed,6,1,100000.0,5.000004342923105,2019.0
+Refyne,2020.0,FinTech,"Chitresh Sharma, Apoorv Kumar",20000000,Series A,6,2,20000000.0,7.301030017378705,2020.0
+Greenjoules,2018.0,Renewable Energy,"R. Sethunath, V S Shridhar, V. Radhika, Viraraghavan Sankaran",4500000,Series A,6,4,4500000.0,6.653212610285218,2018.0
+MentorKart,2018.0,Consulting,"Ashish Khare, SK Mohanty",150000,Seed,6,2,150000.0,5.176094154342576,2018.0
+Leverage Edu,2017.0,EdTech,Akshay Chaturvedi,2000000,Debt,6,1,2000000.0,6.301030212811168,2017.0
+Kale Logistics,2010.0,Logistics,"Amar More, Vipul Jain",5000000,Series A,6,2,5000000.0,6.698970091194907,2010.0
+Pee Safe,2013.0,HealthCare,"Dheeraj Jain, Srijana Bagaria, Vikas Bagaria",3000000,Pre-series B,6,3,3000000.0,6.477121399484465,2013.0
+SimpliContract,2020.0,Software,"Guru Venkatesan, Jinaraj PG, Makesh Kumar",1800000,Seed,6,3,1800000.0,6.255272746377951,2020.0
+Dropshop,2019.0,Logistics,"Udit Dhawan, Rohit Fernandes, Ravi Teja",1000000,Pre-series A,6,3,1000000.0,6.0000004342942646,2019.0
+Jumbotail,2015.0,E-commerce,"Ashish Jhina, Karthik Venkateswaran",4000000,Debt,6,2,4000000.0,6.6020600999015695,2015.0
+Convosight,2019.0,SaaS startup,Tarun Dhamija,9000000,Series A,6,1,9000000.0,6.954242557694265,2019.0
+Junio,2020.0,FinTech,Ankit Gera,600000,Seed,6,1,600000.0,5.7781519742071765,2020.0
+Flexmoney,2015.0,FinTech,Yezdi Lashkari,4800000,Series A,6,1,4800000.0,6.681241327853595,2015.0
+Fampay,2019.0,FinTech,"Kush Taneja, Sambhav Jain",38000000,Series A,6,2,38000000.0,7.579783608045612,2019.0
+Apna,2019.0,Human Resources,Nirmit Parikh,70000000,Series B,6,1,70000000.0,7.845098046218464,2019.0
+XYXX Apparels,2017.0,Fashion,Yogesh Kabra,4000000,Series A,6,1,4000000.0,6.6020600999015695,2017.0
+BrowserStack,2011.0,SaaS startup,"Nakul Aggarwal, Ritesh Arora",200000000,Series B,6,2,200000000.0,8.301029997835453,2011.0
+Vital,2018.0,Insuretech,Rahul Kumar,3000000,Pre-series A,6,1,3000000.0,6.477121399484465,2018.0
+Imagimake,2011.0,Innovation management,"Disha Katharani, Ravi Kumar",500000,Pre-series A,6,2,500000.0,5.698970872924114,2011.0
+MSMEx,2019.0,EdTech,"Amit Kumar, Vishal Kumar, Dilip Kumar, Khushboo Arora, Kumar Sambhav",1000000,Pre-series A,6,5,1000000.0,6.0000004342942646,2019.0
+RenewBuy,2015.0,Insuretech,"Balachander Sekhar, Sandeep Nanda",45000000,Series C,6,2,45000000.0,7.653212523426332,2015.0
+Kutumb,2020.0,Community platform,"Mohit Sharma, Naveen Dewangan, Vipul Allawadhi",26000000,Series A,6,3,26000000.0,7.414973364674451,2020.0
+Superplum,2019.0,AgriTech,Shobhit Gupta,3800000,Pre-series A,6,1,3800000.0,6.579783710904817,2019.0
+Upside AI,2017.0,FinTech,"Kanika Agarrwal, Nikhil Hooda, Atanuu Agarrwal",1200000,Seed,6,3,1200000.0,6.079181607959542,2017.0
+Skillmatics,2016.0,EdTech,Dhvanil Sheth,6000000,Series A,6,1,6000000.0,6.7781513227660515,2016.0
+Bimaplan,2020.0,Insuretech,Vikul Goyal,2500000,Pre-series A,6,1,2500000.0,6.397940182389796,2020.0
+Bueno Finance,2019.0,FinTech,"Saurav Gandhi, Sandeep Arora",3000000,Seed,6,2,3000000.0,6.477121399484465,2019.0
+CityMall,2019.0,E-commerce,"Angad Kikla, Naisheel Verdhan",22000000,Series B,6,2,22000000.0,7.342422700562864,2019.0
+Anvidha Technologies,2020.0,Tech Startup,Ganesh ranganathan iyer,1500000,Seed,6,1,1500000.0,6.176091548585239,2020.0
+CoffeeMug.ai,2020.0,Networking,"Abhishek Sharma, Dipti Tandon",620000,Pre-seed,6,2,620000.0,5.79239238997266,2020.0
+Kazam,2020.0,EV startup,"Akshay Shekhar, Vaibhav Tyagi",900000,Seed,6,2,900000.0,5.954242991988481,2020.0
+BimaPe,2020.0,FinTech,Rahul Mathur,500000,Pre-seed,6,1,500000.0,5.698970872924114,2020.0
+Synapsica,2017.0,HealthCare,"Meenakshi Singh, Dr Cherian, Kuldeep Singh Chauhan",4000000,Series A,6,3,4000000.0,6.6020600999015695,2017.0
+GoMechanic,2016.0,Automotive,Kushal Karwa,42000000,Series C,6,1,42000000.0,7.623249300738245,2016.0
+Classplus,2017.0,EdTech,"Mukul Rustagi, Bhaswat Agarwal",65000000,Series C,6,2,65000000.0,7.812913363324309,2017.0
+WINDO,2020.0,E-commerce,"Silus Reddy Chintapalli, Rakesh Vaddadi",500000,Seed,6,2,500000.0,5.698970872924114,2020.0
+GoBolt,2015.0,Logistics,"Naitik Baghla, Parag Aggarwal, Sumit Sharma",20000000,Series B,6,3,20000000.0,7.301030017378705,2015.0
+Loco,2018.0,Gaming,"Anirudh Pandita, Ashwin Suresh",9000000,Seed,6,2,9000000.0,6.954242557694265,2018.0
+Auric,2017.0,Healthcare,Deepak Agarwal,2000000,Pre-series A,6,1,2000000.0,6.301030212811168,2017.0
+Airblack,2019.0,IT startup,"Videt Jaiswal, Vaibhav Raj Gupta",5200000,Series A,6,2,5200000.0,6.716003427152961,2019.0
+Nestroots,2016.0,Fashion,Chhavi Singh,100000,Seed,6,1,100000.0,5.000004342923105,2016.0
+TABLT,2018.0,Healthcare,Anish Agarwal,3000000,Seies A,6,1,3000000.0,6.477121399484465,2018.0
+Hesa,2020.0,IT startup,"Vamsi Udayagiri, Hema Nandiraju",2000000,Seed,6,2,2000000.0,6.301030212811168,2020.0
+Treebo Hotels,2015.0,Hospitality,"Sidharth Gupta, Kadam Jeet Jain, Rahul Chaudhary",16000000,Series D,6,3,16000000.0,7.204120009799329,2015.0
+Supertails,2021.0,Pet care,"Vineet Khanna, Varun Sadana, Aman Tekriwal",2600000,Pre-series A,6,3,2600000.0,6.414973515007125,2021.0
+Virohan,2018.0,EdTech,"Archit Jayasal, Kunaal Dudeja, Nalin Saluja, Paarul Dudeja","30,00,000",Series A,5,4,3000000.0,6.477121399484465,2018.0
+BankSathi,2019.0,FinTech,Jitendra Dhaka,"2,00,000",Seed,5,1,200000.0,5.301032167130962,2019.0
+BlissClub,2020.0,Fashion,Minu Margeret,"20,00,000",Seed,5,1,2000000.0,6.301030212811168,2020.0
+BricSpaces,2018.0,Real estate,Madhusudhan,"3,50,000",Pre-seed,5,1,350000.0,5.54406928518988,2018.0
+ANSR,2008.0,Consulting,Lalit Ahuja,"1,50,00,000",Series B,5,1,15000000.0,7.176091288008646,2008.0
+Reccy Adventures,2019.0,Sports startup,"Amit Chowdhury, Siddhartha Chatterjee, Tapas Pal","4,00,000",Seed,5,3,400000.0,5.60206107706281,2019.0
+Magenta EV,2017.0,Renewable Energy,"Maxson Lewis, Darryl Dias","1,50,00,000",Series A,5,2,15000000.0,7.176091288008646,2017.0
+Karbon Card,2019.0,FinTech,"Amit Jangir, Bo Li, Jianwei Chen, Kartik Jain, Pei-fu Hsieh, Sunil Kumar","10,00,000",Pre-series A,5,6,1000000.0,6.0000004342942646,2019.0
+Wysa,2015.0,AI company,"Jo Aggarwal, Ramakant Vempati","50,00,000",Series A,5,2,5000000.0,6.698970091194907,2015.0
+Agnikul,2017.0,SpaceTech,"Moin SPM, Satyanarayanan Chakravarthy, Srinath Ravichandran","1,10,00,000",Series A,5,3,11000000.0,7.04139272463954,2017.0
+Glamplus,2020.0,SaaS startup,Divyanshu Singh,"2,00,000",Pre-series A,5,1,200000.0,5.301032167130962,2020.0
+Tekie,2017.0,EdTech,"Anand Verma, Naman Mukund","15,00,000",Seed,5,2,1500000.0,6.176091548585239,2017.0
+Betterhalf.ai,2016.0,Matrimony,"Rahul Namdev, Pawan Gupta","30,00,000",Pre-series A,5,2,3000000.0,6.477121399484465,2016.0
+Koo,2020.0,Social Media,"Aprameya Radhakrishna, Mayank Bidawatka","3,00,00,000",Series B,5,2,30000000.0,7.477121269196145,2020.0
+Mentoria,2015.0,EdTech,"Ashish Arora, Nikhar Arora, Sameer Bhakhri","2,00,000",Pre-series A,5,3,200000.0,5.301032167130962,2015.0
+Cuvette Tech,2020.0,Human Resources,"Atul Singhal, Sudhanshu Singh","18,00,000",Seed,5,2,1800000.0,6.255272746377951,2020.0
+FarMart,2015.0,AgriTech,"Alekh Sanghera, Mehtab Singh Hans","2,40,00,000",Pre-series A,5,2,24000000.0,7.380211259807209,2015.0
+Kodo Card,2019.0,FinTech,"Deepti Sanghi, Gaurav Thapa","80,00,000",Seed,5,2,8000000.0,6.903090041278751,2019.0
+Cellestial,2019.0,Electronics,Siddhartha Durairajan,"5,00,000",Pre-series A,5,1,500000.0,5.698970872924114,2019.0
+Jai Kisan,2017.0,FinTech,"Adriel Maniego, Arjun Ahluwalia","3,00,00,000",Series A,5,2,30000000.0,7.477121269196145,2017.0
+Plum,2019.0,HealthCare,"Abhishek Poddar, Saurabh Arora","1,50,00,000",Series A,5,2,15000000.0,7.176091288008646,2019.0
+Klassroom,2016.0,EdTech,Alka Javeri,"2,00,000",Pre-series A,5,1,200000.0,5.301032167130962,2016.0
+Convin,2019.0,SaaS startup,"Ashish Santhalia, Atul Shree, Bharat Patidar, Durgesh Choudhary","3,00,000",Pre-seed,5,4,300000.0,5.477122702365523,2019.0
+Mensa Brands,2021.0,Clothing,Ananth Narayanan,"5,00,00,000",Series A,5,1,50000000.0,7.698970013021908,2021.0
+MedTel Healthcare,2017.0,HealthCare,"Ajit Choudhury, Lalit Ranjan Manik, Manish Kumar Swain, Shashank Singhal, Siba Prasad Panda","50,00,000",Pre-series A,5,5,5000000.0,6.698970091194907,2017.0
+BharatPe,2018.0,FinTech,"Ashneer Grover, Bhavik Koladiya, Shashvat Nakrani","60,00,000",Debt,5,3,6000000.0,6.7781513227660515,2018.0
+RuleZero,2019.0,Tech Startup,"Satish Mugulavalli, Srinivas Katta","10,00,000",Seed,5,2,1000000.0,6.0000004342942646,2019.0
+Rubix Data Sciences,2018.0,IT startup,Mohan Ramaswamy,"8,00,000",Seed,5,1,800000.0,5.903090529859707,2018.0
+Locobuzz,2011.0,Analytics,Vishal Agrawal,"40,00,000",Series A,5,1,4000000.0,6.6020600999015695,2011.0
+We Founder Circle,2020.0,FinTech,Neeraj Tyagi,"20,00,000",Pre-seed,5,1,2000000.0,6.301030212811168,2020.0
+Haqdarshak,2015.0,Finance,"Aniket Doegar, Asha Krishnan, PR Ganapathy","8,00,000",Pre-series A,5,3,800000.0,5.903090529859707,2015.0
+Myelin Foundry,2019.0,AI startup,"Gopichand Katragadda, Ganesh Suryanarayanan, Aditi Olemann","10,00,000",Pre-series A,5,3,1000000.0,6.0000004342942646,2019.0
+SuperOps.ai,2020.0,AI startup,"Arvind Parthiban, Jayakumar Karumbasalam","30,00,000",Seed,5,2,3000000.0,6.477121399484465,2020.0
+Teachmint,2020.0,EdTech,"Anshuman Kumar, Divyansh Bordia, Mihir Gupta, Payoj Jain","1,65,00,000",Series A,5,4,16500000.0,7.217483970534783,2020.0
+Sarathi,2020.0,HealthCare,Aditi Poyam,"1,00,000",Seed,5,1,100000.0,5.000004342923105,2020.0
+Jidoka Technologies,2018.0,Software,Sekar Udayamurthy,"3,40,000",Seed,5,1,340000.0,5.531480194377088,2018.0
+Rapido,2015.0,Transportation,"Aravind Sanka, Pavan Guntupalli, Rishikesh SR","4,30,00,000",Series C,5,3,43000000.0,7.633468465679458,2015.0
+ElasticRun,2015.0,E-commerce,"Sandeep Deshmukh, Saurabh Nigam, Shitiz Bansal","7,50,00,000",Series D,5,3,75000000.0,7.875061269182293,2015.0
+Avail Finance,2017.0,FinTech,"Ankush Aggarwal, Tushar Mehndiratta","30,00,000",Debt,5,2,3000000.0,6.477121399484465,2017.0
+Nivesh,2016.0,FinTech,"Anurag Garg, Sridhar Srinivasan","16,00,000",Pre-series A,5,2,1600000.0,6.204120254089891,2016.0
+Arthya Wealth and Investments,2020.0,FinTech,Gaurav Arora,"10,00,000",Pre-series A,5,1,1000000.0,6.0000004342942646,2020.0
+Unbox Robotics,2019.0,AI startup,"Pramod Ghadge, Shahid Memon","12,00,000",Pre-series A,4,2,1200000.0,6.079181607959542,2019.0
+Lead School,2012.0,EdTech,"Smita Deorah, Sumeet Mehta","3,00,00,000",Series D,4,2,30000000.0,7.477121269196145,2012.0
+Bizongo,2015.0,B2B E-commerce,"Aniket Deb, Ankit Tomar, Sachin Agrawal","5,10,00,000",Series C,4,3,51000000.0,7.707570184613514,2015.0
+FypMoney,2021.0,FinTech,Kapil Banwari,"20,00,000",Seed,4,1,2000000.0,6.301030212811168,2021.0
+Fitterfly,2016.0,HealthTech,Dr Arbinder Singal,"30,00,000",Pre-series A,4,1,3000000.0,6.477121399484465,2016.0
+MyDentalPlan,2014.0,Helathcare,"Dr Mohender Narula, Dr AnandKrishna, Dr Girish Rao","7,00,000",Seed,4,3,700000.0,5.845098660434502,2014.0
+ORAI,2020.0,IT startup,"Swapnil Jain, Sujit Das Biswas","4,00,000",Pre-series A,4,2,400000.0,5.60206107706281,2020.0
+ixamBee,2016.0,EdTech,Chandraprakash Joshi,"3,00,000",Seed,4,1,300000.0,5.477122702365523,2016.0
+CoinSwitch Kuber,2017.0,FinTech,"Ashish Singhal, Govind Soni, Vimal Sagar Tiwari","2,50,00,000",Series B,4,3,25000000.0,7.397940026043816,2017.0
+Razorpay,2014.0,FinTech,"Harshil Mathur, Shashank Kumar","16,00,00,000",Series E,4,2,160000000.0,8.204119985370266,2014.0
+ZFW Hospitality,2015.0,Food & Beverages,Madhav Kasturia,"1,50,000",Pre-seed,4,1,150000.0,5.176094154342576,2015.0
+Optimized Electrotech,2017.0,Aeorspace,"Anil Yekkala, Dharin Shah, Kuldeep Saxena, Purvi Shah, Sandeep Shah","18,00,000",Pre-series A,4,5,1800000.0,6.255272746377951,2017.0
+Chara,2019.0,Deep Tech,"Bhaktha Keshavachar, Ravi Prasad Sharma, Mahalingam Koushik","8,50,000",Seed,4,3,850000.0,5.9294194366486765,2019.0
+Sirona Hygiene,2015.0,HealthTech,"Deep Bajaj, Mohit Bajaj","30,00,000",Series A,4,2,3000000.0,6.477121399484465,2015.0
+Pristyn Care,2018.0,HealthTech,Harsimarbir (Harsh) Singh,"5,30,00,000",Series D,4,1,53000000.0,7.724275877795025,2018.0
+TrulyMadly,2013.0,Dating,"Hitesh Dhingra, Rahul Kumar, Sachin Bhatia","20,00,000",Pre-series A,4,3,2000000.0,6.301030212811168,2013.0
+Vidyakul,2018.0,EdTech,"Raman Garg, Tarun Saini","5,00,000",Seed,4,2,500000.0,5.698970872924114,2018.0
+Jambox Games,2021.0,Gaming,Ravi Vyas,"11,00,000",Seed,4,1,1100000.0,6.041393079971211,2021.0
+SuperK,2019.0,Retail,Neeraj Menta,"8,00,000",Seed,4,1,800000.0,5.903090529859707,2019.0
+TagZ Foods,2019.0,Food,"Anish Basu Roy, Sagar Bhalotia","5,00,000",Pre-series A,4,2,500000.0,5.698970872924114,2019.0
+Puresh Daily,2019.0,Milk startup,"Manish Piyush, Ayush Kumar","1,00,000",Seed,4,2,100000.0,5.000004342923105,2019.0
+LimeChat,2020.0,AI Chatbot,"Aniket Bajpai, Nikhil Gupta","75,00,000",Seed,4,2,7500000.0,6.875061321297627,2020.0
+Dybo,2019.0,IT,Dhawal Jain,"1,00,000",Seed,4,1,100000.0,5.000004342923105,2019.0
+moEVing,2021.0,Logistics,VIKASH MISHRA,"10,00,000",Seed,4,1,1000000.0,6.0000004342942646,2021.0
+Solethreads,2018.0,Fashion,Vikram Iyer,"10,00,000",Series A,4,1,1000000.0,6.0000004342942646,2018.0
+CredFlow,2020.0,FinTech,Kunal Aggarwal,"20,00,000",Seed,4,1,2000000.0,6.301030212811168,2020.0
+PlayShifu,2016.0,EdTech,"Dinesh Advani, Vivek Goyal","1,70,00,000",Series B,4,2,17000000.0,7.230448946925008,2016.0
+Pitstop,2015.0,Automotive,"Mihir Mohan Mishra, Nirant Ramakuru, Ruchi Deepak","35,00,000",Pre-series B,4,3,3500000.0,6.5440681684343955,2015.0
+Lendingkart,1999.0,FinTech,"Harshvardhan Lunia, Mukul Sachan","1,50,00,000",Debt,4,2,15000000.0,7.176091288008646,1999.0
+CRED,2018.0,FinTech,Kunal Shah,"21,50,00,000",Series D,4,1,215000000.0,8.33243846193558,2018.0
+Karnival,2015.0,SaaS startup,Neeraj Tyagi,"25,00,000",Seed,4,1,2500000.0,6.397940182389796,2015.0
+PharmEasy,2015.0,HealthTech,"Dharmil Sheth, Dhaval Shah, Mikhil Innani","35,00,00,000",Series E,4,3,350000000.0,8.544068045591118,2015.0
+WESS,1989.0,Renewable Energy,Hitesh Doshi,"20,00,000",Seed,4,1,2000000.0,6.301030212811168,1989.0
+Groww,2017.0,FinTech,"Harsh Jain, Ishan Bansal, Lalit Keshre, Neeraj Singh","8,30,00,000",Series D,4,4,83000000.0,7.919078097608537,2017.0
+Avanti Finance,2016.0,FinTech,"Ratan Tata, Nandan Nilekani","2,60,00,000",Series A,4,2,26000000.0,7.414973364674451,2016.0
+Superpro.ai,2019.0,Video communication,"Gaurav Tripathi, Sagar Ramteke, Vijay Goel, Vivek Kumar","30,00,000",Seed,4,4,3000000.0,6.477121399484465,2019.0
+WiT-ACE,2020.0,Skill development,Anuranjita Kumar,"10,00,000",Seed,4,1,1000000.0,6.0000004342942646,2020.0
+Spinny,2015.0,Retail,"Mohit Gupta, Niraj Singh, Ramanshu Mahaur","6,50,00,000",Series C,4,3,65000000.0,7.812913363324309,2015.0
+Alteria Capital,2018.0,FinTech,Vinod Murali,"1,50,00,00,00,000",Debt,4,1,150000000000.0,11.176091259058577,2018.0
+PumPumPum,2018.0,Rental,"Tarun Lawadia, Sameer Kalra","7,00,000",Pre-series A,4,2,700000.0,5.845098660434502,2018.0
+Eunimart,2016.0,E-commerce,"Saikat Roy, Shayak Mazumder","7,00,000",Pre-series A,4,2,700000.0,5.845098660434502,2016.0
+Uable,2020.0,EdTech,Saurabh saxena,"3,50,00,000",Pre-series A,4,1,35000000.0,7.5440680567586895,2020.0
+Zoko,2016.0,Tech Startup,"Arjun Paul, Aromal Sivadasan","14,00,00,000",Seed,4,2,140000000.0,8.146128038780342,2016.0
+GetWork,2019.0,Recruitment,Rahul Veerwal,"2,00,000",Seed,4,1,200000.0,5.301032167130962,2019.0
+Easebuzz,2015.0,E-commerce,Rohit Prasad,"40,00,000",Series A,4,1,4000000.0,6.6020600999015695,2015.0
+DusMinute,2017.0,Retail,Apoorva Mishra,"11,00,000",Pre-series A,4,1,1100000.0,6.041393079971211,2017.0
+SkilloVilla,2020.0,EdTech,"Ronak Agrawal, Rajat Agrawal, Deepak Kharol","3,00,000",Seed,3,3,300000.0,5.477122702365523,2020.0
+Cancer Clinics,2014.0,HealthCare,"Sonali Srungaram, Sasi Sunkara","15,00,000",Pre-series A,3,2,1500000.0,6.176091548585239,2014.0
+Velocity,2020.0,FinTech,"Abhiroop Medhekar, Atul Khichariya, Saurav Swaroop","13,00,000",Seed,3,3,1300000.0,6.113943686379387,2020.0
+Happy Jars,2016.0,Food & Beverages,"Surabhi Talwar, Vikram Sekhar","4,00,000",Seed,3,2,400000.0,5.60206107706281,2016.0
+ExtraaEdge,2015.0,MarTech,"Abhishek Ballabh, Sushil Mundada","10,00,000",Pre-series A,3,2,1000000.0,6.0000004342942646,2015.0
+Zotalabs,2019.0,Tech Startup,"Nausherwan Shah, Wasim Khan","12,50,000",Seed,3,2,1250000.0,6.096910360443503,2019.0
+Voiro,2014.0,Advertisement,"Anand Gopal, Kavita Shenoy","18,00,000",Pre-series A,3,2,1800000.0,6.255272746377951,2014.0
+Rupifi,2019.0,FinTech,Anubhav Jain,"41,00,000",Pre-series A,3,1,4100000.0,6.612783962645206,2019.0
+Moneyboxx,1994.0,FinTech,Deepak Aggarwal,"30,00,000",Debt,3,1,3000000.0,6.477121399484465,1994.0
+CityMall,2019.0,E-commerce,"Angad Kikla, Divij Goyal","1,10,00,000",Series A,3,2,11000000.0,7.04139272463954,2019.0
+Janani,2020.0,Heathcare,Nilay Mehrotra,"10,00,000",Seed,3,1,1000000.0,6.0000004342942646,2020.0
+ReshaMandi,2020.0,AgriTech,Utkarsh Apoorva,"17,00,000",Seed,3,1,1700000.0,6.230449176845541,2020.0
+DotPe,2019.0,FinTech,"Anurag Gupta, Gyanesh Sharma, Shailaz Nag","2,70,00,000",Series A,3,3,27000000.0,7.431363780243968,2019.0
+BYJU'S,2011.0,EdTech,"Byju Raveendran, Divya Gokulnath","46,00,00,000",Series F,3,2,460000000.0,8.662757832625692,2011.0
+HealthPlix,2014.0,HealthCare,"Raghuraj Sunder Raju, Sandeep Gudibanda","1,35,00,000",Series B,3,2,13500000.0,7.130333800664967,2014.0
+Masai School,2019.0,EdTech,Prateek Shukla,"50,00,000",Series A,3,1,5000000.0,6.698970091194907,2019.0
+Stelis Biopharma,2007.0,BioTechnology,Pudhucode Radhakrishnan Kannan,"19,50,00,000",Series B,3,1,195000000.0,8.290034613589668,2007.0
+NeoDove,2020.0,AI startup,Aprit Khandelwal,"1,50,00,000",Seed,3,1,15000000.0,7.176091288008646,2020.0
+KreditBee,2018.0,FinTech,"Karthikeyan Krishnaswamy, Madhusudan Ekambaram, Wan Hong","7,50,00,000",Seed,3,3,75000000.0,7.875061269182293,2018.0
+True Balance,2014.0,FinTech,"Cheolwon Lee, Jay Yi, Martin Lee","1,00,00,000",Debt,3,3,10000000.0,7.000000043429446,2014.0
+Muvin,2020.0,FinTech,Mukund V Rao,"10,00,000",Seed,3,1,1000000.0,6.0000004342942646,2020.0
+FloBiz,2019.0,Tech Startup,Rahul Raj,"1,00,00,000",Series A,3,1,10000000.0,7.000000043429446,2019.0
+Jeevam Health,2020.0,Health care,"Kamran alam, Piyush vishwakarma","15,00,000",Pre-seed,3,2,1500000.0,6.176091548585239,2020.0
+OZiva,2016.0,Heathcare,"Aarti, Mihir Gadani","1,20,00,000",Series B,3,2,12000000.0,7.07918128223883,2016.0
+Blive,2004.0,Tourism,"Samarth Kholkar, Sandeep Mukherjee","10,00,000",Pre-series A,3,2,1000000.0,6.0000004342942646,2004.0
+Euler Motors,2018.0,Automotive,Saurav Kumar,"26,00,000",Series A,3,1,2600000.0,6.414973515007125,2018.0
+Pixxel,2019.0,SpaceTech,"Awais Ahmed, Kshitij Khandelwal","73,00,000",Seed,3,2,7300000.0,6.8633229196128465,2019.0
+Prescinto,2016.0,Solar,Puneet Jaggi,"35,00,000",Seed,3,1,3500000.0,6.5440681684343955,2016.0
+MyGlamm,2015.0,Beauty products,Darpan Sanghvi,"2,00,00,000",Series C,3,1,20000000.0,7.301030017378705,2015.0
+Chirrup,2020.0,Gaming,"Vipul Garg, Sourav Lashkari, Mehul Mittal","3,00,000",Pre-seed,3,3,300000.0,5.477122702365523,2020.0
+Juicy Chemistry,2014.0,Healthcare,"Megha, Pritesh Asher.","63,00,000",Series A,3,2,6300000.0,6.799340618389208,2014.0
+Indifi,2015.0,FinTech,"Alok Mittal, Siddharth Mahanot, Sundeep Sahi","50,00,000",Debt,3,3,5000000.0,6.698970091194907,2015.0
+Say Cheese,2020.0,FemTech,Rajpreet Kaur,"10,00,000",Seed,3,1,1000000.0,6.0000004342942646,2020.0
+Bimaplan,2020.0,FinTech,Vikul Goyal,"5,00,000",Seed,3,1,500000.0,5.698970872924114,2020.0
+YAP,2014.0,FinTech,"Madhusudanan R, Prabhu R","1,00,00,000",Series B,3,2,10000000.0,7.000000043429446,2014.0
+Leap Finance,2019.0,FinTech,Vaibhav Singh,"1,70,00,000",Series B,3,1,17000000.0,7.230448946925008,2019.0
+4baseCare,2018.0,HealthTech,"Hitesh Goswami, Kshitij Rishi","20,00,000",Pre-series A,3,2,2000000.0,6.301030212811168,2018.0
+Ezstays,2019.0,EdTech,"Vaibhav Khanna, Abhishek Kumar, Kumar Gaurav","4,00,000",Seed,3,3,400000.0,5.60206107706281,2019.0
+Stylework,2017.0,Co-working,Sparsh Khandelwal,"5,00,000",Pre-series A,3,1,500000.0,5.698970872924114,2017.0
+Riskcovry,2018.0,InsureTech,"Suvendu Prusty, Sorabh Bhandari, Vidya Sridharan, Chiranth Patil","50,00,000",Series A,3,4,5000000.0,6.698970091194907,2018.0
+Quizizz,2015.0,EdTech,"Ankit Gupta, Deepak Joy Cheenath","1,25,00,000",Series A,3,2,12500000.0,7.096910047751614,2015.0
+Turtlemint,2015.0,InsureTech,"Anand Prabhudesai, Dhirendra Mahyavanshi, Kunal Shah","4,50,00,000",Series D,3,3,45000000.0,7.653212523426332,2015.0
+Captain Fresh,2019.0,Supply chain platform,Utham Gowda,"30,00,000",Seed,3,1,3000000.0,6.477121399484465,2019.0
+Northern Arc,2008.0,FinTech,Kshama Fernandes,"1,00,00,000",Debt,3,1,10000000.0,7.000000043429446,2008.0
+Qoohoo,2020.0,Social platform,"Vimal Singh Rathore, Aseem Gupta","8,00,000",Seed,3,2,800000.0,5.903090529859707,2020.0
+The ePlane,2016.0,Drone,"Pranjal Mehta, Satyanarayanan Chakravarthy","10,00,000",Seed,3,2,1000000.0,6.0000004342942646,2016.0
+Questt,2020.0,EdTech,"Akhil Singh, Mohsin, Rohit Pande","10,00,000",Seed,3,3,1000000.0,6.0000004342942646,2020.0
+DealShare,2018.0,E-commerce,"Sankar Bora, Sourjyendu Medda, Vineet Rao","30,00,000",Debt,3,3,3000000.0,6.477121399484465,2018.0
+Euler Motors,2018.0,Automotive,Saurav Kumar,"40,00,000",Series A,3,1,4000000.0,6.6020600999015695,2018.0
+KoineArth,2018.0,Blockchain startup,Praphul Chandra,"18,00,000",Pre-series A,3,1,1800000.0,6.255272746377951,2018.0
+Northern Arc,2008.0,FinTech,Kshama Fernandes,"5,00,00,000",Debt,3,1,50000000.0,7.698970013021908,2008.0
+Doubtnut,2016.0,EdTech,"Aditya Shankar, Tanushree Nagori","3,00,00,000",Series B,2,2,30000000.0,7.477121269196145,2016.0
+Infra.Market,2016.0,Construction,"Aaditya Sharda, Souvik Sengupta","10,00,00,000",Series C,2,2,100000000.0,8.000000004342946,2016.0
+Kutuki,2017.0,EdTech,"Bharath Bevinahally, Sneha Sundaram","20,00,000",Seed,2,2,2000000.0,6.301030212811168,2017.0
+Eupheus,2017.0,EdTech,"Amit Kapoor, Rohit Dhar, Sarveshwar Shrivastava, Ved Prakash Khatri","40,00,000",Series B,2,4,4000000.0,6.6020600999015695,2017.0
+KreditBee,2018.0,FinTech,Madhusudan Ekambaram,"7,50,00,000",Series C,2,1,75000000.0,7.875061269182293,2018.0
+Pencil,2019.0,Content publishing,"Malini Nair, Preeti Chib, Swarup Nanda","10,00,000",Pre-series A,2,3,1000000.0,6.0000004342942646,2019.0
+UptimeAI,2016.0,AI startup,"Jagadish Gattu, Vamsi Yalamanchili","15,00,000",Seed,2,2,1500000.0,6.176091548585239,2016.0
+WizKlub,2018.0,EdTech,Amit Bansal,"8,00,000",Pre-series A,2,1,800000.0,5.903090529859707,2018.0
+Zolve,2020.0,FinTech,Raghunandan G,"1,50,00,000",Seed,2,1,15000000.0,7.176091288008646,2020.0
+MediBuddy,2000.0,EdTech,Satish Kannan,"30,00,000",Debt,2,1,3000000.0,6.477121399484465,2000.0
+Pariksha,2015.0,EdTech,"Deepak Choudhary, Karanvir Singh Shekhawat, Utkarsh Bagri, Vikram Shekhawat","20,00,000",Pre-series A,2,4,2000000.0,6.301030212811168,2015.0
+Express Stores,2019.0,E-commerce,"Apoorv Jain, Kartik Gupta","10,00,000",Seed,2,2,1000000.0,6.0000004342942646,2019.0
+Phable,2017.0,HealthTech,"Mukesh Bansal, Prasanth Reddy, Sumit Sinha","1,20,00,000",Series A,2,3,12000000.0,7.07918128223883,2017.0
+Supply6,2018.0,Helathcare,"Rahul Jacob, Vaibhav Bhandari","1,00,000",Seed,2,2,100000.0,5.000004342923105,2018.0
+Swajal,2015.0,Water purification,"Advait Kumar, Vibha Tripathi","16,00,000",Pre-series A,2,2,1600000.0,6.204120254089891,2015.0
+BharatPe,2018.0,FinTech,"Ashneer Grover, Shashvat Nakrani","10,00,00,000",Series D,2,2,100000000.0,8.000000004342946,2018.0
+Filo,2020.0,EdTech,"Imbesat Ahmad, Shadman Anwer","2,60,000",Pre-seed,2,2,260000.0,5.414975018330997,2020.0
+Method & Madness,2020.0,Real Estate,Aditya Jhaveri,"20,00,000",Seed,2,1,2000000.0,6.301030212811168,2020.0
+EduFund,2020.0,FinTech,"Arindam Sengupta, Eela Dubey","3,00,000",Pre-seed,2,2,300000.0,5.477122702365523,2020.0
+Pepperfry,2011.0,E-commerce,"Ambareesh Murty, Ashish Shah","3,00,00,000",Debt,2,2,30000000.0,7.477121269196145,2011.0
+VerSe Innovation,2007.0,Innovation Management,Virendra Gupta,"1,00,00,00,000",Series H,2,1,1000000000.0,9.000000000434294,2007.0
+Supersourcing,2020.0,Software company,"Mayank Pratap Singh, Aditi Chaurasia","2,00,000",Seed,2,2,200000.0,5.301032167130962,2020.0
+AutomataPi,2017.0,Automation,"Devesh Rao, Manjeet Khopkar, Rahul Hattangdi","4,00,000",Seed,2,3,400000.0,5.60206107706281,2017.0
+Newton School,2019.0,EdTech,"Nishant Chandra, Siddharth Maheshwari","50,00,000",Series A,2,2,5000000.0,6.698970091194907,2019.0
+Siply,2020.0,FinTech,"Sousthav Chakrabarty, Anil Bhat","10,00,000",Seed,2,2,1000000.0,6.0000004342942646,2020.0
+SarvaGram,2019.0,FinTech,"Utpal Isser, Sameer Mishra","1,00,00,000",Series B,2,2,10000000.0,7.000000043429446,2019.0
+Unlu,2020.0,Celebrity Engagement,"Akshay Pruthi, Anurag Dalia, Himanshu Periwal, Vipul Agrawal","10,00,000",Seed,2,4,1000000.0,6.0000004342942646,2020.0
+GlobalFair,2020.0,Trading platform,"Ashish Chandra, Shaily Garg","20,00,000",Seed,2,2,2000000.0,6.301030212811168,2020.0
+Eduvanz,2016.0,FinTech,"Atul Sashittal, Raheel Shah, Varun Chopra","1,00,00,000",Debt,2,3,10000000.0,7.000000043429446,2016.0
+Progcap,2017.0,FinTech,"Pallavi Shrivastava, Himanshu Chandra","10,00,000",Debt,2,2,1000000.0,6.0000004342942646,2017.0
+ABL Workspaces,2017.0,Hospitality,"Ankur Gupta, Akshita Gupta","6,00,000",Pre-series A,2,2,600000.0,5.7781519742071765,2017.0
+SplashLearn,2018.0,EdTech,"Arpit Jain, Joy Deep Nath, Mayank Jain, Umang Jain","1,80,00,000",Series C,2,4,18000000.0,7.255272529230776,2018.0
+Maya,2016.0,HealthTech,John Paul,"22,00,000",Seed,2,1,2200000.0,6.342422878228744,2016.0
+MediBuddy,2000.0,HealthTech,"atish Kannan, Enbasekar","4,00,00,000",Series B,2,2,40000000.0,7.602060002185325,2000.0
+Zetwerk,2018.0,E-commerce,"Amrit Acharya, Rahul Sharma, Srinath Ramakkrushnan, Vishal Chaudhary","12,00,00,000",Series D,2,4,120000000.0,8.079181249666746,2018.0
+YourPhysio,2020.0,HealthTech,"Dr Sheetal Mundhada, Ashutosh Mundhada","3,50,000",Pre-seed,2,2,350000.0,5.54406928518988,2020.0
+Aviom Housing Finance,2016.0,FinTech,Kajal Ilmi,"10,00,000",Debt,2,1,1000000.0,6.0000004342942646,2016.0
+Hemp Horizons,2017.0,Cannabis startup,Rohit Shah,"2,00,000",Seed,2,1,200000.0,5.301032167130962,2017.0
+Koo,2020.0,Blogging,"Mayank Bidawatka, Aprameya Radhakrishna","41,00,000",Series A,2,2,4100000.0,6.612783962645206,2020.0
+InnerHour,2016.0,Healthcare,Amit Malik,"52,00,000",Series A,2,1,5200000.0,6.716003427152961,2016.0
+Origo,2010.0,AgriTech,"Sunoor Kaul, Mayank Dhanuka","1,00,00,000",Debt,2,2,10000000.0,7.000000043429446,2010.0
+Elucidata,2015.0,BioTechnology,"Abhishek Jha, Richard Kibbey, Swetabh Pathak","50,00,000",Pre-series A,1,3,5000000.0,6.698970091194907,2015.0
+Saveo,2019.0,HealthTech,"Amit Kumar, Anurag Savarnya, Shivansh Shrivastava, Vivek Jaiswal","40,00,000",Seed,1,4,4000000.0,6.6020600999015695,2019.0
+DotPe,2019.0,FinTech,"Anurag Gupta, Gyanesh Sharma, Shailaz Nag","80,00,000",Seed,1,3,8000000.0,6.903090041278751,2019.0
+SeeVC,2020.0,Tech Startup,"Shivam Sood, Lark Aakarshan","10,00,000",Seed,1,2,1000000.0,6.0000004342942646,2020.0
+VenWiz,2020.0,B2B service,"Rajesh Reddy, Sandesh Paturi","3,00,000",Seed,1,2,300000.0,5.477122702365523,2020.0
+Headfone,2017.0,Social audio,"Pratham Khandelwal, Yogesh Sharma","30,00,000",Seed,1,2,3000000.0,6.477121399484465,2017.0
+GrowFix,2020.0,FinTech,"Ajinkya Kulkarni, Abhik Patel","20,00,000",Seed,1,2,2000000.0,6.301030212811168,2020.0
+Dunzo,2015.0,Delivery service,"Ankur Aggarwal, Dalvir Suri, Kabeer Biswas, Mukund Jha","4,00,00,000",Series E,1,4,40000000.0,7.602060002185325,2015.0
+BeyondSkool,2020.0,EdTech,Payal Gaba,"20,00,000",Seed,1,1,2000000.0,6.301030212811168,2020.0
+Mindler,2015.0,EdTech,Prateek Bhargava,"10,00,000",Pre-series A,1,1,1000000.0,6.0000004342942646,2015.0
+Fashinza,2020.0,B2B Manufacturing,"Abhishek Sharma, Pawan Gupta","26,00,000",Seed,1,2,2600000.0,6.414973515007125,2020.0
+BharatPe,2018.0,FinTech,"Ashneer Grover, Shashvat Nakrani","60,00,000",Debt,1,2,6000000.0,6.7781513227660515,2018.0
+Turnip,2020.0,Gaming,"Aditya Sharma, Pooja Dubey","16,00,000",Seed,1,2,1600000.0,6.204120254089891,2020.0
+Inficold,2015.0,Solar,"Himanshu Pokharna, Nitin Goel","9,00,000",Pre-series A,1,2,900000.0,5.954242991988481,2015.0
+KIWI,2020.0,TaaS startup,"Imran Ladiwala, Mishu Ahluwalia","2,50,000",Seed,1,2,250000.0,5.397941745846491,2020.0
+BharatPe,2018.0,FinTech,"Ashneer Grover, Shashvat Nakrani","1,00,00,000",Debt,1,2,10000000.0,7.000000043429446,2018.0
+Udayy,2019.0,EdTech,"Saumya Yadav, Mahak Garg, Karan Varshney","25,00,000",Seed,1,3,2500000.0,6.397940182389796,2019.0
+DeHaat,2012.0,AgriTech,"Shashank Kumar, Manish Kumar","3,00,00,000",Series C,1,2,30000000.0,7.477121269196145,2012.0
+Samunnati,2014.0,AgriTech,Anil Kumar,"1,00,00,000",Debt,1,1,10000000.0,7.000000043429446,2014.0
+Biconomy,2019.0,Blockchain startup,"Ahmed Al-Balaghi, Aniket Jindal, Sachin Tomar","15,00,000",Seed,1,3,1500000.0,6.176091548585239,2019.0
+Siply,2020.0,FinTech,Sousthav Chakrabarty,"10,00,000",Seed,1,1,1000000.0,6.0000004342942646,2020.0
+Nao Spirits & Beverages Pvt Ltd,2016.0,Beverages,Anand Virmani,"20,00,000",Series A,1,1,2000000.0,6.301030212811168,2016.0
+PurpleTutor,2019.0,EdTech,"Gaurav Perti, Yatish Gupta","3,00,000",Seed,1,2,300000.0,5.477122702365523,2019.0
+Karkhana.io ,2018.0,Manufacturing startup,Sonam Motwani,"15,00,000",Seed,1,1,1500000.0,6.176091548585239,2018.0
+CoinSwitch Kuber,2017.0,Cryptocurrency,"Ashish Singhal, Govind Soni, Vimal Sagar Tiwari","1,50,00,000",Series A,1,3,15000000.0,7.176091288008646,2017.0
+Infra.Market,2016.0,E-commerce,"Souvik Sengupta, Aaditya Sharda","60,00,000",Debt,1,2,6000000.0,6.7781513227660515,2016.0
+ReadyAssist,2018.0,Vehicle repair startup,Vimal Singh SV,"10,00,000",Seed,1,1,1000000.0,6.0000004342942646,2018.0
+Ergos,2012.0,AgriTech,"Kishor Kumar Jha, Praveen Kumar","30,00,000",Series A,1,2,3000000.0,6.477121399484465,2012.0
+Toothsi,2018.0,Healthcare,"Dr Arpi Mehta, Dr Pravin Shetty, Dr Manjul Jain, Dr Anirudh Kale","50,00,000",Series A,1,4,5000000.0,6.698970091194907,2018.0
+Jumbotail,2015.0,Food and Beverages,"Ashish Jhina, Karthik Venkateswaran","1,43,00,000",Series B3,1,2,14300000.0,7.155336067835305,2015.0
+Phi Commerce,2015.0,FinTech,"Anil Sharma, Jose Thattil, Rajesh Londhe, Tushar Shankar","40,00,000",Series A,1,4,4000000.0,6.6020600999015695,2015.0
+Finsall,2019.0,Insuretech,"Prabal Khanna, Tim Mathews","3,00,000",Seed,1,2,300000.0,5.477122702365523,2019.0
+Practically,2018.0,EdTech,Subbarao Siddabattula,"40,00,000",Pre-series B,1,1,4000000.0,6.6020600999015695,2018.0
+Cred,2018.0,FinTech,Kunal Shah,"8,10,00,000",Series C,1,1,81000000.0,7.90848502424031,2018.0
+Zerone,2018.0,FinTech,Jaijit Bhattacharya,"13,00,000",Pre-series A,1,1,1300000.0,6.113943686379387,2018.0
+boAt,2016.0,Fashion & Lifestyle,"Aman Gupta, Sameer Mehta","10,00,00,000",PE,1,2,100000000.0,8.000000004342946,2016.0
+Kyt,2020.0,EdTech,"Bhavik Rathod, Tripti Ahuja","50,00,000",Series A,1,2,5000000.0,6.698970091194907,2020.0
+BharatPe,2018.0,FinTech,"Ashneer Grover, Shashvat Nakrani","82,00,000",Debt,1,2,8200000.0,6.913813905346455,2018.0
+CropIn,2010.0,AgriTech,Krishna Kumar,"2,00,00,000",Series C,1,1,20000000.0,7.301030017378705,2010.0
+Vanity Wagon,2018.0,Cosmetics,Prateek Ruhail,"2,00,000",Seed,1,1,200000.0,5.301032167130962,2018.0
+Oyo,2012.0,Hospitality,Ritesh Agarwal,"70,00,000",Series F1,1,1,7000000.0,6.845098102056321,2012.0
+HobSpace,2019.0,EdTech,"Priya Goel Sheth, Harsh Jain","1,00,000",Pre-series A1,1,2,100000.0,5.000004342923105,2019.0
+KiranaKart,2020.0,E-commerce,"Kaivalya Vohra, Aadit Palicha","7,20,000",Pre-seed,1,2,720000.0,5.85733309961763,2020.0
+Meddo,2018.0,Healthcare,Saurabh Kochhar,"30,00,000",Pre-series A,1,1,3000000.0,6.477121399484465,2018.0
