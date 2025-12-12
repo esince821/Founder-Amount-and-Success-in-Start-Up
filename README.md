@@ -71,7 +71,7 @@ As I have an interest on entrepreneurship, I wanted to examine these ideas using
      Converted the `Founded` column to a numeric year where possible, to study trends over time.
 
 3.  **Final Analysis Dataset**
-   - The cleaned and feature-engineered data is stored as `startupdataset_clean_for_analysis.csv` and used for all EDA and hypothesis exploration.
+   - The cleaned and feature-engineered data is stored as `startupdataset_final_clean_l.csv` and used for all EDA and hypothesis exploration.
 
 ## Analysis Plan
 
