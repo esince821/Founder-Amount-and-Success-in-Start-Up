@@ -22,14 +22,14 @@ The composition of a founding team and the stage of funding are central topics i
 - Later funding stages, by definition, are linked to higher valuations and larger deal sizes.
 - Younger vs. older startups may face different funding environments.
 
-As a data science student interested in entrepreneurship, I wanted to examine these ideas using real startup data. Understanding these relationships can help founders and investors develop more realistic expectations about funding, and can serve as a small, data-driven case study of how team structure and growth stage interact with investment outcomes.
+As I have an interest on entrepreneurship, I wanted to examine these ideas using real startup data. Understanding these relationships can help founders and investors develop more realistic expectations about funding, and can serve as a small, data-driven case study of how team structure and growth stage interact with investment outcomes.
 
 ---
 
 ## Datasets
 
-### Dataset 1: Startup Founders and Funding (Raw)
-* **Name:** Startup Founders and Funding  
+### Dataset 1: Startup Information (Raw)
+* **Name:** Startup Informations
 * **Source:** Kaggle.com
 * **Link:** https://www.kaggle.com/datasets/ramjasmaurya/indian-startupsin-2021?resource=download
 * **Data Acquisition Method:** Downloaded the dataset as a CSV file using Kaggle’s download feature and imported it into a Jupyter notebook (Anaconda environment). 
@@ -59,7 +59,7 @@ As a data science student interested in entrepreneurship, I wanted to examine th
 1.  **Data Cleaning**
    - Removed encoding artifacts from column names (e.g., BOM characters in `"Company/Brand"`).
    - Stripped whitespace from all column names.
-   - Converted `Amount(in dollars)` from string format (with `$` and commas) to a numeric variable `Amount_clean`.
+   - Converted `Amount(in dollars)` from string format to a numeric variable `Amount_clean`.
    - Dropped rows with missing values in critical fields such as `Amount_clean` and `Stage` for the main analysis dataset.
 
 2.  **Feature Engineering**
