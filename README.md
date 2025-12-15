@@ -78,27 +78,28 @@ As I have an interest on entrepreneurship, I wanted to examine these ideas using
 ### 1. Exploratory Data Analysis (EDA)
 
 **Univariate EDA**
-- Examined distributions of:
-  - `founder_count` (histograms, value counts),
-  - `Amount_clean` and `log_amount` (histograms),
-  - `Stage` and `Sector` (frequency tables).
+- Examined distribution of:
+  - `founder_count` (histograms, value counts)
 - Calculated summary statistics (`.describe()`) for key numeric variables.
 
 **Bivariate EDA**
+
 - **Founder Count vs Funding Amount**
-  - Grouped by `founder_count` and computed `count`, `mean`, and `median` funding.
+  - Grouped by `founder_count` and computed the `count`, `mean`, and `median` funding for each group.
   - Plotted boxplots of `log_amount` by `founder_count` to compare funding distributions across different team sizes.
 
-- **Stage vs Funding Amount**
-  - Grouped by `Stage` to obtain counts and median log funding amounts.
-  - Plotted boxplots of `log_amount` by `Stage` (restricted to stages with at least 5 observations) to visualize how funding grows across Pre-seed, Seed, Series A–F, etc.
+- **Funding Stage vs Funding Amount**
+  - Grouped the data by `Stage` and calculated the number of startups and median `log_amount` for each stage.
+  - Plotted boxplots of `log_amount` by `Stage` (only including stages with enough observations) to see how typical funding changes from early rounds (Pre-seed, Seed) to later rounds (Series A–F).
 
 - **Sector vs Funding Amount**
-  - Aggregated funding by `Sector` and plotted boxplots for the top 10 sectors by median funding.
+  - Examined how funding varies across different `Sector` categories.
+  - Focused on the sectors with more observations and compared their funding using `log_amount` (e.g., with grouped summaries or boxplots).
 
 - **Founded Year vs Funding Amount**
-  - Calculated correlations between `Founded_year` and `Amount_clean`.
-  - Created a scatter plot of `Funding Amount vs Founded Year` to check for temporal trends.
+  - Investigated how funding relates to `Founded_year`.
+  - Created a scatter plot of `log_amount` versus `Founded_year` and computed the correlation to check whether older or newer startups tend to receive higher funding.
+
 
 ### 2. Hypothesis Exploration
 
@@ -119,17 +120,17 @@ Correlation coefficients, group summaries, and boxplots are used to assess these
 ## Key Insights 
 
 - **Funding Stage vs Funding Amount:**  
-  Median log funding increases monotonically from early stages (pre-seed, seed) to later rounds (Series C–F). Because the y-axis is on a log₁₀ scale, differences of 1 unit correspond to roughly tenfold differences in funding, indicating that later-stage rounds are substantially larger.
+  Median log funding clearly increases from early stages (Pre-seed, Seed) to later rounds (Series C–F). Because the y-axis is on a log₁₀ scale, a difference of about 1 unit corresponds to roughly a tenfold change in funding. This, together with the ANOVA results, shows that funding stage is strongly associated with funding size.
 
 - **Founder Count vs Funding Amount:**  
-  Startups with 1–4 founders show a gradual increase in median log funding as the founder count increases, although variability within each group is large and there are outliers where small founding teams raise very large amounts.
+  Boxplots and the Pearson correlation both suggest that there is no clear linear relationship between `founder_count` and `log_amount`. The distributions for different founder team sizes overlap heavily, and although some small teams raise very large amounts, having more founders does not systematically lead to higher funding in this dataset.
 
 - **Founded Year vs Funding Amount:**  
-  The correlation between founding year and funding amount is close to zero, and the scatter plot does not reveal a clear trend. In this dataset, older and younger startups do not systematically differ in the amount of funding they have raised, aside from a few extreme outliers.
+  There is a modest **negative** correlation between `Founded_year` and `log_amount`. Older startups tend to have slightly higher funding on average than more recently founded startups, but the effect size is limited. Founding year alone is not enough to reliably predict funding.
 
 - **Sector Effects:**  
-  Some sectors (e.g., finance, biotechnology, crypto) exhibit very wide funding ranges, with both small and extremely large deals, whereas others show more homogeneous deal sizes.
-  
+  Some sectors (e.g., finance, biotechnology, crypto) show very wide funding ranges, with both small and extremely large deals, while others have more concentrated funding levels. This suggests that industry can influence funding patterns, although there is still substantial variation within each sector.
+
 ---
 
 ## Timeline
@@ -142,17 +143,37 @@ Correlation coefficients, group summaries, and boxplots are used to assess these
 ## Limitations and Future Work
 
 ### Limitations
-- **Manual Data Collection:** The data was manually gathered from Wellfound, which limits sample size and may introduce selection bias (only startups with public profiles are included).  
-- **Missing or Incomplete Fields:** Some startups lacked detailed funding or founder information, reducing data completeness.   
-- **Uncontrolled Factors:** Other variables such as team experience, product type, market conditions, or geographic region were not included but may influence funding outcomes.  
-- **Approximation in Funding Amounts:** Inconsistent currency formats and missing values required normalization and estimation.
-- **Generalized Industry Category:** To simplify I added only one field of company.
-  
+
+- **Single Dataset and Context:**  
+  The analysis is based on one Kaggle dataset of startups, which seems to be limited to a specific region and time period. As a result, the findings may not generalize to all startups or to other ecosystems.
+
+- **Parsing of Founder Information:**  
+  The number of founders was extracted from a free-text `Founder/s` column using simple string rules. This can lead to counting errors (for example, cases with 0 founders or unusual formatting), which reduces the accuracy of the `founder_count` feature.
+
+- **Incomplete or Missing Values:**  
+  Some startups have missing or unclear funding amounts or stages. These rows were dropped during cleaning, which reduces the sample size and may introduce bias if missingness is not random.
+
+- **Funding Amount Interpretation:**  
+  Funding amounts are treated as a single numeric value without distinguishing between different rounds or currencies. Using `log_amount` helps with skewness, but it still mixes potentially different types of funding events.
+
+- **Limited Feature Set:**  
+  Important factors such as sector detail, geography, team experience, product type, market conditions, or investor quality are not fully included. This means the models and hypotheses are based on a simplified view of what drives funding.
+
 ---
 
 ### Future Work
-- **Expand Dataset:** Collect a larger and more diverse dataset, including international startups and additional success metrics (e.g., revenue, exit status).  
-- **Automate Data Collection:** Implement web-scraping or API-based collection from platforms like Crunchbase or PitchBook for greater scalability.  
-- **Longitudinal Analysis:** Track startups over multiple years to observe how founder composition affects long-term performance.  
-- **Advanced Modeling:** Apply regression or machine learning models to predict funding success based on founder count and industry.  
-- **Broader Variables:** Incorporate qualitative factors such as founder background, education, and experience for a deeper understanding of team dynamics.
+
+- **Richer and Larger Datasets:**  
+  Combine multiple datasets or sources (e.g., other Kaggle datasets or startup databases) to cover more countries, more years, and more startups. This would make the conclusions more robust.
+
+- **Better Founder Features:**  
+  Improve the extraction of founder information by using more reliable structured data or more advanced text processing. Future work could also include founder background, education, or prior startup experience rather than just counting the number of founders.
+
+- **More Detailed Funding Data:**  
+  Separate different funding rounds (Pre-seed, Seed, Series A, etc.) by date and amount, and analyze the evolution of funding over time for the same startup instead of using a single aggregated number.
+
+- **Advanced Modelling and Validation:**  
+  Explore more complex machine learning models (e.g., Random Forests, Gradient Boosting) with proper cross-validation to see whether richer features can significantly improve prediction of funding amounts.
+
+- **External Data Enrichment:**  
+  Add external variables such as macroeconomic indicators, market size, or sector-specific trends to better understand how the environment around a startup influences funding outcomes.
