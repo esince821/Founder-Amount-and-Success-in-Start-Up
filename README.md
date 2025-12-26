@@ -117,6 +117,93 @@ The project qualitatively examines the following questions:
 Correlation coefficients, group summaries, and boxplots are used to assess these hypotheses descriptively rather than with full formal statistical tests.
 
 ---
+## Machine Learning Models
+
+In addition to exploratory analysis and hypothesis testing, I trained simple
+regression models to predict the log of total funding (`log_amount`) for each
+startup.
+
+### Goal
+
+The main prediction task is:
+
+> Predict `log_amount` (log₁₀ of the total funding amount) from basic startup features.
+
+The features used are:
+
+- `founder_count` – number of founders
+- `Founded_year` – year the startup was founded
+- `Stage` – funding stage (Pre-seed, Seed, Series A–F, etc., one-hot encoded)
+
+The target variable is:
+
+- `log_amount` – log₁₀-transformed version of `Amount_clean`, used to reduce skewness
+  in funding amounts.
+
+Only rows with complete values for these columns were kept for modelling.
+
+### Models
+
+I trained two regression models:
+
+1. **Linear Regression (Baseline)**  
+   A simple linear model that assumes a straight-line relationship between the
+   features and `log_amount`. This model is mainly used as a baseline to check
+   how much variation can be explained with a very simple approach.
+
+2. **Random Forest Regressor (Main Model)**  
+   A tree-based ensemble model that combines many decision trees.  
+   Random Forest can capture non-linear relationships and interactions between
+   features (for example, between `Stage` and `Founded_year`) and does not
+   require feature scaling.
+
+The data was split into training and test sets:
+
+- 80% for training  
+- 20% for testing (used only for evaluation)
+
+### Evaluation
+
+The models were evaluated on the test set using:
+
+- **R² (coefficient of determination)** – how much of the variation in `log_amount`
+  is explained by the model (values closer to 1 are better).
+- **RMSE (Root Mean Squared Error)** on the log₁₀ scale – typical size of the
+  prediction error in log units.
+
+For the **Random Forest model**:
+
+- **R² ≈ 0.69** on the test set  
+- **RMSE ≈ 0.47** on the log₁₀ scale
+
+This means that:
+
+- The model explains about **69%** of the variation in log funding.
+- The prediction error on the log scale is moderate, which is reasonable given
+  the high variability and noise in startup funding.
+
+Overall, the Random Forest model performs noticeably better than the simple
+Linear Regression baseline, and supports the earlier results from EDA and
+hypothesis testing: funding **Stage** carries the strongest signal for funding
+amount, while `founder_count` and `Founded_year` have a smaller additional
+effect.
+
+### Outputs
+
+The predictions from the Random Forest model on the test set are saved in:
+
+- `ml_predictions_random_forest.csv`
+
+This file includes:
+
+- `Company/Brand`  
+- `log_amount_actual` – true log funding  
+- `log_amount_predicted` – model prediction (rounded to 2 decimals)
+
+These predictions can be used for inspection, plotting, or further analysis.
+
+---
+
 ## Key Insights 
 
 - **Funding Stage vs Funding Amount:**  
@@ -138,6 +225,7 @@ Correlation coefficients, group summaries, and boxplots are used to assess these
 |------|----------|
 |Project Proposal Submission| October 31, 2025|
 |EDA & Hypothesis Testing| November 28, 2025|
+|ML Phase| ...|
 
 ---
 ## Limitations and Future Work
