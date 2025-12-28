@@ -267,8 +267,3 @@ These predictions can be used for inspection, plotting, or further analysis.
   Add external variables such as macroeconomic indicators, market size, or sector-specific trends to better understand how the environment around a startup influences funding outcomes.
 
 
-
-  | **Dataset** | **Time Span** | **Granularity** | **Key Variables** | **Source** |
-|------------|--------------|-----------------|------------------|------------|
-| Indian Startups 2021 | 2021 | Company-level | Company name, founders, funding amount, stage, sector, founding year, headquarters | Kaggle |
-
